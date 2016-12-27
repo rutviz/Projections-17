@@ -21,10 +21,11 @@
     </head>
 
     <body class="black">
-	<div class="shade">
-     <?php
+	<?php
 	include("header.html");	
 	?>
+	<div class="shade">
+     
 
       <article class="layer" >
         <div class="layer__background">
