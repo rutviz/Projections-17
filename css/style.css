@@ -1,18 +1,36 @@
-
+body{
+}
 .shade{
 	opacity:0.65;
 }
+.box1{
+	width:100%;
+	height:100px; 
+	position:fixed;
+  -webkit-filter: blur(5px);
+  filter:blur(4px);
+  border:solid 5px transparent ;
+  border-color:transparent transparent transparent transparent ;
+  border-radius: 0 0 100px 100px;
+  filter:opacity(0.1);
+  padding:0;
+  background-color:#CCC;
+  margin-top:0;
+}
 /* Navbar css */
 header{
-	
 	position:fixed;
 	z-index:2;
-	color:#fff;
-	padding:10px;
-	background-color:#00bcd4;
+	padding:8px;
 	font-size:20px;
-	font-weight:800;
-	width:100%;
+	margin:1%;
+	margin-left:31%;
+	background-color:white;
+	opacity:0.9;
+	border-radius:10px;
+}
+header:hover{
+	
 }
 ul {
     list-style-type: none;
@@ -23,6 +41,7 @@ ul {
 
 
 li {
+	color:#FFF;
     float: left;
 }
 li img{
@@ -31,12 +50,13 @@ li img{
 
 li a {
     display: block;
-	color:#FFF !important;
+	
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 8px;
     text-decoration: none;
 	transition:background-color 0.2s;
 	transition-property:Back Pulse;
+	
 	
 }
 .scene{
@@ -44,9 +64,9 @@ li a {
 }
 
 li a:hover {
-    background-color:#FFF;
-	color:#000!important;
-	opacity:0.8;
+    color:#000;
+	background-color:none;
+
 }
 
 /* End */
@@ -54,4 +74,27 @@ li a:hover {
 .layer{
 	position:fixed;
 	
+}
+#p1{
+	position:relative;
+	top:-210px;
+	right:90px;		
+	animation-delay:1s;
+}
+#p2{
+	position:relative;
+}
+#p3{
+	position:relative;
+	top:-270px;
+	left:47px;
+	animation-delay:1s;
+}
+#name{
+	position:relative;
+	color:#FFF;
+	top:-230px;
+	left:180px;
+	font-size:55px;
+	animation-delay:2s;
 }
