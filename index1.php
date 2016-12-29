@@ -8,7 +8,7 @@
     <meta name="description" content="Projections is International Technical festival">
 	 
 	<meta http-equiv="Cache-control" content="no-transform">
-    <title>Projections 2016 | Home</title>
+    <title>Projections 2017 | Home</title>
    
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
