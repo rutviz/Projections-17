@@ -1,14 +1,71 @@
-<header	>
+<style>
+header{
+	
+	z-index:2;
+	padding:10px;
+	font-size:20px;
+	padding:1%;
+	width:100%;
+	position:fixed;
+	padding-right:2%;
+	color:#FFF!important;
+}
+header:hover{
+	
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header li {
+	color:#FFF !important;
+    float: left;
+	margin:5px;
+}
+header li img{
+	float:left!important;
+}
 
+header li a {
+    display: block;
+	color:#FFF!important;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+	transition:background-color 0.2s;
+	transition-property:Back Pulse;
+}
+
+header li a:hover {
+    color:#000 !important;
+	background-color:#AAA;
+}
+header #menu{
+	float:right;
+	
+}
+#logo{
+	position:absolute;
+	padding: 0px 8px;
+	height:50px;
+	animation-delay:3s;
+}
+/* End */</style>
+<header	class="nav-wrapper">
+<div id="logo" class="animated zoomIn"><img src="images/logo1.png" height="50px"></img></div>
+<div id="menu">
 <ul class="hide-on-med-and-down">
 	<!--<li><img src="images/logo.png"></img></li>-->
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="events.html">Events</a></li>
+  <li><a class="active" href="index.php">Home</a></li>
+  <li><a href="events.php">Events</a></li>
   <li><a href="#contact">Workshop</a></li>
-  <li><a href="team.html">Team</a></li>
+  <li><a href="team.php">Team</a></li>
   <li><a href="#contact">Sponsors</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+</div>
 </header>
 <!--
 <div class="navbar-fixed">

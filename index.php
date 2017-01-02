@@ -28,7 +28,7 @@
 	include("header.html");	
 	?>
 	<div class="shade">
-    <div class="box1"></div>
+    
 
       <article class="layer" >
         <div class="layer__background">
@@ -62,8 +62,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 	<script>
 	$('#name').on('webkitAnimationEnd animationend',function(event){
-		$("#total").addClass('pulse');
+		$("#total").addClass('zoomOut');
 	} );
+	
 	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
 	});

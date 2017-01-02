@@ -5,18 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	 <!-- CSS reset -->
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/events.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-  	
+  	<style>
+	header{
+		background-color:#000;
+		position:sticky;
+	}
+	</style>
 	<title>Filter</title>
 </head>
 <body>
-	<main class="cd-main-content">
-		<div class="cd-tab-filter-wrapper">
-			<div class="cd-tab-filter">
+	
+	<?php
+		include('header.html');
+	?>
+	<div style="height:500px;">
+	</div>
+	<div>
+	<main class="cd-main-content" style="background-color:white">
+		<div class="cd-tab-filter-wrapper" >
+			<div class="cd-tab-filter " >
 				<ul class="cd-filters">
 					<li class="placeholder"> 
 						<a data-type="all" href="#0">All</a> <!-- selected option on Event2 -->
@@ -30,7 +43,7 @@
 		</div> <!-- cd-tab-filter-wrapper -->
 
 		<section class="cd-gallery">
-			<ul>
+			<ul id="mix-wrapper">
 				<li class="mix Event1">
 				<div class="col-md-3">
 			        <div class="product-container">
@@ -251,10 +264,15 @@
 			</ul>
 			<div class="cd-fail-message">No results found</div>
 		</section> <!-- cd-gallery -->
-	</main> <!-- cd-main-content -->
+	</main> <!-- cd-main-content --></div>
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    
+<script>
+
+</script>
 </body>
 </html>
 
