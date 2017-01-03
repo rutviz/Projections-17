@@ -1,14 +1,19 @@
 <html>
 <head>
-<link rel="stylesheet" href="css/workshop.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link rel="stylesheet" href="css/workshop.css">
 </head>
-<body>
-
+<body onscroll="navcolor();">
+ <?php
+	include("header.html");	
+	?>
+	<div class="parallax-container">
+      <div class="parallax"><img src="http://materializecss.com/images/parallax1.jpg"></div>
+    </div>
+	<div style="background-color:#e0e0e0">
 <div class="event-card">
 <div class="event-card_details">
 </div>
@@ -44,6 +49,22 @@
     <button>About Workshop</button>
   </div>
 </div>
-
+</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  
+<script>
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+ function navcolor(){
+ 	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
+</script>
 </body>
 </html>
