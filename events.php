@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	 <!-- CSS reset -->
@@ -274,7 +274,9 @@
 <script>
  $(document).ready(function(){
       $('.parallax').parallax();
+	  $(".button-collapse").sideNav();
     });
+	
  function navcolor(){
  	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
         $("header").css("background-color","#000");

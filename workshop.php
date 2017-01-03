@@ -54,8 +54,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   
 <script>
- $(document).ready(function(){
+  $(document).ready(function(){
       $('.parallax').parallax();
+	  $(".button-collapse").sideNav();
     });
  function navcolor(){
  	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {

@@ -22,7 +22,7 @@
 	  
     </head>
 
-    <body class="black" style="	overflow:hidden;">
+    <body class="black"  style="overflow:hidden;">
 	
 	<?php
 	include("header.html");	
@@ -44,8 +44,13 @@
         </div>
       </article>
 	  </div>
-	  <div class="animated " id="concert" style="display:none;height: 200px;width: 200px;background-color: #FFF;top:200px;z-index: 10;left: 500px;position: absolute;">
-
+	  <div class="container" style="position:absolute;margin:15%">
+	  <div class="animated"  id="concert" style="display:none;width:400px;height: 200px;background-color: #FFF;z-index:9">
+		<h3>
+		Event Content
+		</h3>
+	</div>
+	
 	</div>
 	   <div id="total" class="animated hide-on-med-and-down" style="/*background-color:#336699;*/display:inline-block;top:35%;left:28%;position:absolute;">
 	<img class="animated bounceInDown" id="p3" src="png/3.png" width="18%"></img>
@@ -71,13 +76,33 @@
 	$('#logo').on('webkitAnimationEnd animationend',function(event){
 		$("#concert").show();
 		$("#concert").addClass('zoomIn');
+		$("#concert1").show();
+		$("#concert1").addClass('zoomIn');
 	} );
-	$("#concert").on('webkitAnimationEnd animationend',function(event){
+	$('#concert').on('webkitAnimationEnd animationend',function(event){
+		$("#total").remove();
+		$("#concert").removeClass();
+	} );
+	$('#concert1').on('webkitAnimationEnd animationend',function(event){
+		$("#total").remove();
+		$("#concert1").removeClass();
+	} );
+	$("#concert").mouseenter(function(){
 				$("#concert").removeClass();
 				$("#concert").addClass('animated');
-				$("#concert").addClass('pulse');
-				$("#concert").addClass('infinite');
-	});
+				$("#concert").addClass('jello');	
+				$("#concert").css("animation-duration","1s");	
+				$("#concert").css("animation-delay","0s");	
+		});$("#concert1").mouseenter(function(){
+				$("#concert1").removeClass();
+				$("#concert1").addClass('animated');
+				$("#concert1").addClass('jello');	
+				$("#concert1").css("animation-duration","1s");	
+				$("#concert1").css("animation-delay","0s");	
+		});
+	
+	
+	
 	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
 	});

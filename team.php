@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"/>
-<meta name="description" content="Team Page & details"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	 
+	 
 <title>Team Page
 </title>
 <link rel="stylesheet" type="text/css" href="./css/team.css">
@@ -108,14 +112,20 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="./js/main.min.js">
+ $(document).ready(function(){
+      $('.parallax').parallax();
+	  $(".button-collapse").sideNav();
+    });
+</script>
 </body>
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,500,500italic" rel="stylesheet" type="text/css"/>
 
 <link rel="stylesheet" type="text/css" href="./css/main.min.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-</script>
-<script src="./js/main.min.js">
-</script>
+
 </html>
