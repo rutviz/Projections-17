@@ -1,14 +1,16 @@
 <style>
 header{
-	
+	top:0;
 	z-index:2;
-	padding:10px;
+	padding:0px;
 	font-size:20px;
-	padding:1%;
 	width:100%;
 	position:fixed;
 	padding-right:2%;
 	color:#FFF!important;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 header:hover{
 	
@@ -22,7 +24,7 @@ header ul {
 header li {
 	color:#FFF !important;
     float: left;
-	margin:5px;
+	
 }
 header li img{
 	float:left!important;
@@ -32,7 +34,8 @@ header li a {
     display: block;
 	color:#FFF!important;
     text-align: center;
-    padding: 7px 8px;
+    margin:0; 
+    padding: 22px 25px;
     text-decoration: none;
 	transition:background-color 0.2s;
 	transition-property:Back Pulse;
@@ -40,7 +43,7 @@ header li a {
 
 header li a:hover {
     color:#000 !important;
-	background-color:#AAA;
+	background-color:#FFF;
 }
 header #menu{
 	float:right;
@@ -48,12 +51,12 @@ header #menu{
 }
 #logo{
 	position:absolute;
-	padding: 0px 8px;
+	padding: 12px 8px;
 	height:50px;
 	animation-delay:3s;
 }
 /* End */</style>
-<header	class="nav-wrapper">
+<header	class="">
 <div id="logo" class="animated zoomIn"><img src="images/logo1.png" height="50px"></img></div>
 <div id="menu">
 <ul class="hide-on-med-and-down">

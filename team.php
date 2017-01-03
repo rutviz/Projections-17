@@ -7,15 +7,21 @@
 <title>Team Page
 </title>
 <link rel="stylesheet" type="text/css" href="./css/team.css">
+<style type="text/css">
+	
+	#menu{
+		margin-right: 2%;
+	}
+</style>
 </head>
 
 <body>
-<div class="shade">
+
      <?php
 	include("header.html");	
 	?>
 	  
-	  </div>	
+	  	
 <div class="wrapper">
 
 	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>

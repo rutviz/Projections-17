@@ -13,19 +13,20 @@
 
   	<style>
 	header{
-		background-color:#000;
+		
 		position:sticky;
 	}
 	</style>
 	<title>Filter</title>
 </head>
-<body>
+<body onscroll="navcolor();">
 	
 	<?php
 		include('header.html');
 	?>
-	<div style="height:500px;">
-	</div>
+	<div class="parallax-container">
+      <div class="parallax"><img src="http://materializecss.com/images/parallax1.jpg"></div>
+    </div>
 	<div>
 	<main class="cd-main-content" style="background-color:white">
 		<div class="cd-tab-filter-wrapper" >
@@ -271,7 +272,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     
 <script>
-
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+ function navcolor(){
+ 	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
 </script>
 </body>
 </html>

@@ -44,12 +44,16 @@
         </div>
       </article>
 	  </div>
+	  <div class="animated " id="concert" style="display:none;height: 200px;width: 200px;background-color: #FFF;top:200px;z-index: 10;left: 500px;position: absolute;">
+
+	</div>
 	   <div id="total" class="animated hide-on-med-and-down" style="/*background-color:#336699;*/display:inline-block;top:35%;left:28%;position:absolute;">
 	<img class="animated bounceInDown" id="p3" src="png/3.png" width="18%"></img>
 	<img class="animated bounceInUp" id="p2" src="png/2.png" width="41%" ></img>
 	<img class="animated bounceInRight" id="p1" src="png/1.png" width="35%"></img>
 	<h1 class="animated flipInY" id="name">PROJECTIONS</h1>
 	</div>
+	
 	   
 	 
 	
@@ -64,10 +68,20 @@
 	$('#name').on('webkitAnimationEnd animationend',function(event){
 		$("#total").addClass('zoomOut');
 	} );
-	
+	$('#logo').on('webkitAnimationEnd animationend',function(event){
+		$("#concert").show();
+		$("#concert").addClass('zoomIn');
+	} );
+	$("#concert").on('webkitAnimationEnd animationend',function(event){
+				$("#concert").removeClass();
+				$("#concert").addClass('animated');
+				$("#concert").addClass('pulse');
+				$("#concert").addClass('infinite');
+	});
 	$( document ).ready(function(){
 		$(".button-collapse").sideNav();
 	});
+
 	
 	</script>
     </body>
