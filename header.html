@@ -37,8 +37,6 @@ header li a {
     margin:0; 
     padding: 22px 25px;
     text-decoration: none;
-	transition:background-color 0.2s;
-	transition-property:Back Pulse;
 }
 
 header li a:hover {
@@ -60,11 +58,14 @@ header #menu{
 	color:white !important;
 	padding:15px;
 	position:absolute;
+	animation-delay:3s;
+
 }
 #logo1{
 	width:30px;
 	margin:2%;
 	margin-left:45%;
+
 }
 #sidenav-overlay{
 	z-index:1 !important;
@@ -76,8 +77,8 @@ header #menu{
 /* End */</style>
 <header	class="">
 	<div class="hide-on-large-only nav" ><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color:white">menu</i></a></div>
-	<div id="logo" class="animated hide-on-med-and-down zoomIn"><img src="images/logo1.png" height="50px"></img></div>
-	<div id="logo1" class="animated hide-on-large-only zoomIn"><img src="images/logo1.png" height="50px"></img></div>
+	<div id="logo" class="animated hide-on-med-and-down zoomIn" ><a href="index.php"><img src="images/logo1.png" height="50px"></img></a></div>
+	<div id="logo1" class="animated hide-on-large-only zoomIn"><a href="index.php"><img src="images/logo1.png" height="50px"></img></a></div>
 	
 	
 	<div id="menu">

@@ -48,7 +48,7 @@ display: block;
 
 .event-card_details{
 background-image: url("https://dlazer.xyz/p16/img/event/aircraft.png");
- background-size: absolute ;
+ background-size: contain ;
   width: 100%;
   height: 100%;
   shape-margin: 30px;
@@ -66,14 +66,13 @@ transition: all 2s ease;
    opacity:0;
   height: 100%;
   font-family: 'Raleway', sans-serif;
-  font-size: 14px !important;
+  font-size: 14px;
   font-weight: 300;
   line-height: 20px;
   transition:opacity 2s;
 }
-.event-card__text p {	
-  color: #8c8c8c;
-  font-weight:600;
+.event-card__text p {
+  color: #bbb;
   font-family: 'Open Sans', sans-serif;
  
   transition:display 5s;
@@ -82,19 +81,15 @@ transition: all 2s ease;
   color: #0092F1;
   display:block;
   transition:display 5s;
-  margin-top:1px;
-  font-size: 32px !important;
 }
 .event-card__text h3{
-color: #8c8c8c;
-font-weight:600;
+color: #bbb;
 transition-delay: 5s;
-font-size: 19px !important;
 }
 .event-card__text button {
   position: absolute;
   right: 10%;
-  bottom: 1%;
+  bottom: 5%;
   transform: translateX(25%);
   background: #333;
   border: 1px solid #fff;
@@ -136,12 +131,11 @@ font-size: 19px !important;
 }
 .event-card__image__notif {
   position: absolute;
-  display:inline-block;
   left: 15px;
   bottom: 15px;
   color: white;
   font-family: 'Raleway', sans-serif;
-  text-align: left;
+  text-align: center;
   font-size: 14px;
   font-weight: bold;
   text-shadow: 5px 5px 1 #000;
@@ -151,31 +145,25 @@ font-size: 19px !important;
 @media screen and (max-height: 900px) and (max-width: 500px) {
 .event-card{
 height:100px;
-width:90%;
-margin-left:5%;
-  margin-right:5%;
 }
 .event-card__text h1 {
-  font-size:17px !important;
-  margin-top:0.5px !important;
-margin-bottom:0.5px !important;
-  }
+
+  font-size:100%;
+}
 .event-card__text {
   letter-spacing: 0.5px;
-  font-size: 7px !important;
+  font-size: 7px;
  line-height: 10px;
 }
 .event-card__text h3{
-font-size:7px !important;
-margin-top:0.7px !important;
-margin-bottom:0px !important;
+font-size:7px;
 }
 .event-card__text button {
   right: 10%;
-  font-size: 4px  !important;
-  letter-spacing: 0px;
+  font-size: 5px;
+  letter-spacing: 1px;
   margin-top:1px;
-  height:24%;
+  height:27%;
   width:25%
 }
 .event-card__image__date {
