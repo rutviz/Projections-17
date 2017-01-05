@@ -16,6 +16,56 @@
 	#menu{
 		margin-right: 2%;
 	}
+
+	.controls{
+	  padding: 2%;
+	  margin-top: 10%;
+	  background: #333;
+	  color: #eee;
+	}
+
+	button{
+	  display: inline-block;
+	  padding: .4em .8em;
+	  background: #666;
+	  border: 0;
+	  color: #ddd;
+	  font-size: 16px;
+	  font-weight: 300;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	button.active{
+	  background: #68b8c4;
+	}
+
+	button:focus{
+	  outline: 0 none;
+	}
+
+	.wrapper .mix,
+	.wrapper .gap{
+	  display: inline-block;
+	}
+
+	.wrapper .mix{
+	  display: none;
+	}
+
+	@media all and (min-width: 420px){
+	  .wrapper .mix,
+	  .wrapper .gap{
+	    width: 32%;
+	  }
+	}
+
+	@media all and (min-width: 640px){
+	  .wrapper .mix,
+	  .wrapper .gap{
+	    width: 27.5%;
+	  }
+	}
 </style>
 </head>
 
@@ -25,10 +75,18 @@
 	include("header.html");	
 	?>
 	  
-	  	
-<div class="wrapper">
+<div class="controls">
+	  <label>Team:</label>
+	  
+	  <button class="filter-1" data-filter=".core">Core Team</button>
+	  <button class="filter-1 active" data-filter=".web">Web Team</button>
+	  
+	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+
+<div class="wrapper" id="MixItUp1">
+
+	<div data-active="inactive" class="card card--small mix core"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com/harshitks2203" target="_blank" class="social__link ico"></a>
@@ -42,7 +100,7 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+	<div data-active="inactive" class="card card--small mix web"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com" target="_blank" class="social__link ico"></a>
@@ -56,7 +114,7 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+	<div data-active="inactive" class="card card--small mix core"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com" target="_blank" class="social__link ico"></a>
@@ -70,7 +128,7 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+	<div data-active="inactive" class="card card--small mix core"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com" target="_blank" class="social__link ico"></a>
@@ -84,7 +142,7 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+	<div data-active="inactive" class="card card--small mix web"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com" target="_blank" class="social__link ico"></a>
@@ -98,7 +156,7 @@
 		<p class="review__content review__content--small">This man is able to write a complete web app just using the windows notepad, that's awesome...</p></article>
 	</div>
 
-	<div data-active="inactive" class="card card--small"><button title="Social Networks" class="card__btn ico"></button>
+	<div data-active="inactive" class="card card--small mix web"><button title="Social Networks" class="card__btn ico"></button>
 
 		<div class="social">
 			<a href="https://www.facebook.com" target="_blank" class="social__link ico"></a>
@@ -127,5 +185,16 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,500,500italic" rel="stylesheet" type="text/css"/>
 
 <link rel="stylesheet" type="text/css" href="./css/main.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+
+<script>
+	$(function(){
+  $('#MixItUp1').mixItUp({
+    selectors: {
+      filter: '.filter-1'
+    }
+  });
+});
+</script>
 
 </html>

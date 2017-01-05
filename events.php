@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html >
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	 <meta http-equiv="Cache-control" content="no-transform">
+	<meta name="theme-color" content="#000">
 	 <!-- CSS reset -->
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/events.css"> <!-- Resource style -->
@@ -18,15 +20,37 @@
 	}
 	</style>
 	<title>Filter</title>
+	<script>
+			
+ function navcolor(){
+ 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
+	</script>
 </head>
 <body onscroll="navcolor();">
 	
 	<?php
 		include('header.html');
 	?>
-	<div class="parallax-container">
-      <div class="parallax"><img src="http://materializecss.com/images/parallax1.jpg"></div>
+		<div class="parallax-container" style="height: 400px"> 
+	<div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center hide-on-med-and-down" style="margin-top: 16%; font-size: 100px; color: #fff; font-weight: 600;">
+          <div class="header col s12 dark">Events</div>
+        </div>
+        <div class="row center hide-on-large-only" style="margin-top: 50%; font-size: 50px; color: #fff; font-weight: 600;">
+          <div class="header col s12 dark">Events</div>
+        </div>
+      </div>
     </div>
+      <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
+    </div>
+
 	<div>
 	<main class="cd-main-content" style="background-color:white">
 		<div class="cd-tab-filter-wrapper" >
@@ -266,8 +290,8 @@
 			<div class="cd-fail-message">No results found</div>
 		</section> <!-- cd-gallery -->
 	</main> <!-- cd-main-content --></div>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/jquery.mixitup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     
@@ -276,15 +300,7 @@
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();
     });
-	
- function navcolor(){
- 	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
+
 </script>
 </body>
 </html>

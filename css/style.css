@@ -19,6 +19,30 @@
 	left:47px;
 	animation-delay:1s;
 }
+#mp1{
+	position:relative;
+	top:-49px;
+	right:23px;		
+	animation-delay:1s;
+}
+#mp2{
+	position:relative;
+}
+#mp3{
+	position:relative;
+	
+	top:-65px;
+	left:12px;
+	animation-delay:1s;
+}
+#mname{
+	position:relative;
+	color:#FFF;
+	top:-50px;
+	left:60px;
+	font-size:55px;
+	animation-delay:2s;
+}
 #name{
 	position:relative;
 	color:#FFF;
@@ -27,7 +51,15 @@
 	font-size:55px;
 	animation-delay:2s;
 }
-#infinite {
-   animation-iteration-count: infinite;
-   animation-duration: 4s;
+#concert{
+	animation-delay: 4s;
+}
+
+#concert1{
+	animation-delay: 4s;
+}
+html.noscroll {
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
 }
