@@ -150,7 +150,7 @@ font-size: 19px !important;
 }
 @media screen and (max-height: 900px) and (max-width: 500px) {
 .event-card{
-height:100px;
+height:130px;
 width:90%;
 margin-left:5%;
   margin-right:5%;
