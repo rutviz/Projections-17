@@ -49,7 +49,7 @@
       </article>
 	  </div>
 	 
-	   <div id="total" class="animated hide-on-med-and-down" style="/*background-color:#336699;*/display:inline-block;top:35%;left:28%;position:absolute;">
+	   <div id="total" class="animated hide-on-med-and-down" style="/*background-color:#336699;*/display:inline-block;top:35%;left:28%;position:fixed;">
 	<img class="animated bounceInDown" id="p3" src="png/3.png" width="18%"></img>
 	<img class="animated bounceInUp" id="p2" src="png/2.png" width="41%" ></img>
 	<img class="animated bounceInRight" id="p1" src="png/1.png" width="35%"></img>
