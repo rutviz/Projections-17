@@ -1,252 +1,170 @@
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 16px;
-}
+
+/* 01. GENERAL SETTINGS ============================================ */
+
+* {margin: 0; padding: 0;}
+
+p {line-height: 160%;}
+
+a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+img {border: 0;}
 
 body {
-    margin: 0;
+	background: #fff;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+
 }
 
-small {
-    font-size: 80%;
+/* Buttons */
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 40px;
+	color: rgba(255,255,255, 0.95);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	outline: 0;
+	transition: all 0.1s ease-in;
 }
 
-body {
-    background-color: #000;
+.btn-transparent {background: rgba(0,0,0, 0.2);}
+.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+
+/* Separators */
+.separator {
+	margin: -15px auto;
+	background: #2196F3;
+	width: 60px;
+	height: 5px;
 }
 
-img {
-    max-width: 100%;
+/* 02. FONT FACE ============================================ */
+
+@font-face {
+    font-family: 'norwester';
+	src: url('../fonts/norwester/norwester.eot');
+    src: url('../fonts/norwester/norwester.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/norwester/norwester.ttf');
+    font-weight: normal;
 }
 
-button {
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    border: none;
-    outline: none;
-    -ms-touch-action: none;
-    touch-action: none;
+/* 03. TEAM SETTINGS ============================================ */
+
+#TEAM {
+	padding: 60px 0;
+	background: #111;
+	text-align: center;	
 }
 
-.wrapper {
-    display: block;
-    margin: 3.5em auto;
-    text-align: center;
-    width: 100%;
+#TEAM p {
+	padding: 20px 0 60px;
+	color: rgba(255,255,255, 0.85);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
 }
 
-@media screen and (max-width:720px) {
-    .wrapper {
-        padding-right: 1%;
-        width: 100%;
-    }
+#TEAM h3 {
+	padding: 0 0 15px;
+	margin-top: -1%;
+	font-family: 'norwester';
+	font-size: 36px;
+	text-transform: uppercase;
 }
 
-.title {
-    border-bottom: 1px solid #e0e0e0;
-    color: rgba(66, 66, 66, 0.7);
-    font-weight: 400;
-    margin: 0;
-    padding-bottom: .25em;
+#TEAM h4  {
+	margin-top: -40px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #039be5;
 }
 
-.card,
-.card::after {
-    -webkit-border-radius: .125em;
-    border-radius: .125em;
-    height: 16em;
-    width: 19em;
+#TEAM h4 span {
+	display: block;
+	position: relative;
+	left: -40px;
+	top: 10px;
+	font-size: 20px;
+	background: none;
+	padding: 0;
 }
 
-.card--small,
-.card--small::after {
-    height: 13em;
-    width: 24.2em;
+#TEAM img {
+	width: 100%;
+	max-width: 240px;
+	border-radius: 50%; 
+	border: 15px solid transparent; 
+	box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
+	transition: all 0.1s ease-in;
+	  -webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+	
+}
+	
+#TEAM img:hover {
+	border: 10px solid #3980C9;
+	position: relative;
+	z-index: 10;
+	transition: all 0.1s ease-in;	
+ 	   -webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+	
 }
 
-.card {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #fff;
-    display: inline-block;
-    margin: 1em 2em 3.5em 1em;
-    position: relative;
+#TEAM span {
+	padding: 8px 20px;
+	position: relative;
+	top: -64px;
+	left: -41px;
+	display: inline-block;
+	background: #4593e3;
+	color: #fff;
+	border-radius: 0 16px 16px 0;
+	font-size: 16px;
 }
 
-.card::after {
-    background-color: #15a3d1;
-    content: '';
-    display: block;
-    left: 1px;
-    opacity: .6;
-    position: absolute;
-    top: 1px;
-    -webkit-transform: translate3d(10px, 10px, 0);
-    transform: translate3d(10px, 10px, 0);
-    -webkit-transition: -webkit-transform .15s linear;
-    transition: transform .15s linear;
-    z-index: -1;
+/* Member Image Hover Effect */
+.hover_img {
+  display: none
 }
 
-.card__btn {
-    background-color: transparent;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: none;
-    height: 32px;
-    line-height: 32px;
-    position: absolute;
-    right: 0;
-    text-decoration: none;
-    top: .15em;
-    -webkit-transition: background-color .2s linear;
-    transition: background-color .2s linear;
-    width: 32px;
+.member-profile:hover .unhover_img{
+  display: none;
 }
 
-.card__btn::before {
-    -webkit-transition: -webkit-transform .2s linear;
-    transition: transform .2s linear;
-    color: rgba(66, 66, 66, 0.87);
-    display: block;
-    font-size: 18px;
-    margin: auto;
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0)
+.member-profile:hover .hover_img {
+  display: block;
 }
 
-.card__image-container {
-    display: inline-block;
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-    width: 7em;
+/* Social Networks Meta */
+#TEAM li {display: inline-block; padding: 0 6px; font-size: 18px;}
+#TEAM li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
+#TEAM li a:hover {color: rgba(0,0,0, 0.7);}
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+
+	#TEAM img {max-width: 300px;}
+
+	
 }
 
-.card__image-container--small {
-    width: 13.2em;
+
+@media only screen and (max-width: 500px) 
+{
+	.container{
+		width: 60% !important;
+	}
+
+	.m3{
+		margin-top: 18%;
+	}
 }
 
-.card__image {
-    -webkit-border-radius: 2px 0 0 2px;
-    border-radius: 2px 0 0 2px;
-    width: 100%;
-}
 
-@media screen and (max-width:1024px) {
-    .card__btn {
-        display: block;
-    }
-}
-
-@media screen and (max-width:720px) {
-    .card,
-    .card::after {
-        height: 15em;
-        width: 17em;
-    }
-    .card--small,
-    .card--small::after {
-        height: 10.2em;
-        width: 22.3em;
-    }
-     .card__image-container--small {
-    width: 10.2em;
-    } 
-}
-
-@media screen and (max-width:560px) {
-    .card {
-        display: block;
-        margin: 1em auto 3.5em auto;
-    }
-}
-
-@media screen and (max-width:410px) {
-    .card::after {
-        -webkit-transform: translate3d(14px, 10px, 0);
-        transform: translate3d(14px, 10px, 0)
-    }
-}
-
-.review {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 16em;
-    padding: 1em;
-    text-align: left;
-    vertical-align: top;
-    width: 12em;
-}
-
-.review--small {
-    height: 11em;
-    padding: .75em;
-    width: 11em;
-}
-
-.review__name,
-.review__city,
-.review__content {
-    margin: 0;
-}
-
-.review__name {
-    color: rgba(66, 66, 66, 0.87);
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.review__name--small {
-    font-size: 18px;
-}
-
-.review__city {
-    color: rgba(66, 66, 66, 0.54);
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: .25;
-}
-
-.review__content {
-    color: rgba(66, 66, 66, 0.7);
-    margin-top: 1em;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.review__content--small {
-    margin-top: .75em;
-}
-
-@media screen and (max-width:720px) {
-    .review {
-        height: 15em;
-        width: 10em;
-    }
-    .review--small {
-        height: 11em;
-        width: 11.8em;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .review__name {
-        padding-right: .5em;
-    }
-    .review__name--small {
-        padding-right: 1em;
-    }
-}
-
-.social {
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-}
