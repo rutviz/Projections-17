@@ -1,0 +1,33 @@
+.shade{
+	opacity:0.8;
+}
+.layer{
+	position:fixed;
+}
+#p1{
+	position:relative;
+	top:-210px;
+	right:90px;		
+	animation-delay:1s;
+}
+#p2{
+	position:relative;
+}
+#p3{
+	position:relative;
+	top:-270px;
+	left:47px;
+	animation-delay:1s;
+}
+#name{
+	position:relative;
+	color:#FFF;
+	top:-230px;
+	left:180px;
+	font-size:55px;
+	animation-delay:2s;
+}
+#infinite {
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+}

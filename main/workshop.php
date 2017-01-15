@@ -5,17 +5,6 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<link rel="stylesheet" href="css/workshop.css">
-	<script>
-			
- function navcolor(){
- 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
-	</script>
 </head>
 <body onscroll="navcolor();">
  <?php
@@ -69,7 +58,14 @@
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();
     });
- 
+ function navcolor(){
+ 	 if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
 </script>
 </body>
 </html>
