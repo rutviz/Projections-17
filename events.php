@@ -74,8 +74,8 @@
 			        <div class="product-container">
 			          <div class="product-image">
 			            <span class="hover-link"></span>
-			            <a href="payment.php" class="product-link">view details</a>
-			            <img class="img-responsive" src="maze.png" alt="">
+			            <a href="#" class="product-link">view details</a>
+			            <img class="img-responsive" src="https://displate.com/displates/2015-05-11/c49f983aed6ad8713b81edf01de73bfa.jpg?w=400&h=400&v=3" alt="">
 			          </div>
 			          <div class="product-description">
 			            <div class="product-label">
