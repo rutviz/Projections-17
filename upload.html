@@ -1,0 +1,42 @@
+<html>
+<head>
+	
+</head>
+<body>
+<input id="name" type="text"></input>
+<input id="Contact" type="text"></input>
+<button onclick="senddata()">Submit</button>
+<div id="data">123</div>
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCDBhDFGZseUKn8xLQAYob5fxQTA-EAV3g",
+    authDomain: "p2k17-5ee6c.firebaseapp.com",
+    databaseURL: "https://p2k17-5ee6c.firebaseio.com",
+    storageBucket: "p2k17-5ee6c.appspot.com",
+  };
+    messagingSenderId: "432908882802"
+  firebase.initializeApp(config);
+  
+  
+  
+  mRef = firebase.database().ref().child('Events').child("Technical_Events");
+  
+  mRef.on("child_added",snap => {
+			var name = snap.child('rounds').val();
+			alert(name);
+			$("#data").text(name+"");
+		});
+  function senddata()
+  {
+	var name = $("#name").val(); 
+	var conc = $("#Contact").val(); 
+	mRef.child(""+name).child("Event_name").set(name);
+	mRef.child(""+name).child("Contact").set(conc);
+  }
+</script>
+
+</body>
+</html>
