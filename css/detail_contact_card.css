@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+.teammember {
+  margin-left:3%;
+  margin-top:3%;
+  position:relative;
+  height: 50%;
+  width: 45%;
+  background: #3C3C3C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  float:left;
+}
+.teammember__img {
+  
+  
+  height: initial;
+  width: 60%;
+  
+}
+.teammember__content {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Avenir Next', sans-serif;
+}
+.teammember__content__name {
+  font-size: 2rem;
+  text-align:left;
+  font-weight: 500;
+  margin: 0;
+  padding: 5px 10px;
+  padding-bottom: 0;
+}
+.teammember__content__job {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 3%;
+  text-align:left;
+  
+  
+}
+.teammember__content__contact {
+  width: 100%;
+  
+  padding: 0;
+}
+.teammember__content__contact li {
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  text-align:left;
+  padding: 5px 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.teammember__content__contact li:hover {
+  cursor: pointer;
+  background: #555;
+}
+.teammember__content__contact li:hover::before {
+  color: #b7d8f4;
+}
+.teammember__content__contact li:hover::after {
+  opacity: 1;
+}
+.teammember__content__contact li::before {
+  font-family: 'FontAwesome', sans-serif;
+  padding-right: 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.teammember__content__contact li::after {
+  content: 'Copy to clipboard';
+  font-size: .75rem;
+  font-weight:700;
+  color: #eeff41 ;
+  padding-left: 10px;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.teammember__content__contact__phone::before {
+  content: '\f095';
+  font-size:2rem;		
+}
+.teammember__content__contact__email::before {
+  content: '\f0e0';
+  font-size:1.5rem;
+}
+.teammember__content__contact__slack::before {
+  content: '\f198';
+}
+.teammember__content__office {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  color: #555;
+  font-weight: bold;
+}
+@media screen and (max-height: 900px) and (max-width: 500px){
+ .teammember{
+ width: 90%;
+ height: 40%;
+ }
+ .teammember__content__contact li {
+ font-size:0.85rem;
+ }
+ .teammember__content__contact__phone::before {
+  font-size:1rem;		
+}
+.teammember__content__contact__email::before {
+    font-size:0.75rem;
+}
+.teammember__img {
+ 
+  width: 70%;
+  
+}
+}
