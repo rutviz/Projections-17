@@ -101,7 +101,7 @@
 			          <div class="product-image">
 			            <span class="hover-link"></span>
 			            <a href="#" class="product-link">view details</a>
-			            <img class="img-responsive" src="https://thumbs.dreamstime.com/x/hand-drawn-minimal-alphabet-sans-serif-elegant-font-vector-design-48737104.jpg" alt="">
+			            <img class="img-responsive" src="images/1.png" alt="">
 			          </div>
 			          <div class="product-description">
 			            <div class="product-label">
