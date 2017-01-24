@@ -47,8 +47,8 @@ display: block;
 }
 
 .event-card_details{
-background-image: url("https://dlazer.xyz/p16/img/event/aircraft.png");
- background-size: absolute ;
+ background-size: cover;
+ background-repeat:no-repeat;
   width: 100%;
   height: 100%;
   shape-margin: 30px;
