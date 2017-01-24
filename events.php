@@ -37,17 +37,17 @@
 	<?php
 		include('header.html');
 	?>
-		<div class="parallax-container" style="height: 400px"> 
-	<div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center hide-on-med-and-down" style="margin-top: 16%; font-size: 100px; color: #fff; font-weight: 600;">
-          <div class="header col s12 dark">Events</div>
-        </div>
-        <div class="row center hide-on-large-only" style="margin-top: 50%; font-size: 50px; color: #fff; font-weight: 600;">
-          <div class="header col s12 dark">Events</div>
-        </div>
-      </div>
-    </div>
+	<div class="parallax-container" style="height: 400px"> 
+		<div class="section no-pad-bot">
+	      <div class="container">
+	        <div class="row center hide-on-med-and-down" style="margin-top: 16%; font-size: 100px; color: #fff; font-weight: 600;">
+	          <div class="header col s12 dark">Events</div>
+	        </div>
+	        <div class="row center hide-on-large-only" style="margin-top: 50%; font-size: 50px; color: #fff; font-weight: 600;">
+	          <div class="header col s12 dark">Events</div>
+	        </div>
+	      </div>
+	    </div>
       <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
     </div>
 
@@ -352,7 +352,6 @@
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();
     });
-
 </script>
 </body>
 </html>

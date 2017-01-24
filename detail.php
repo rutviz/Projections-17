@@ -50,17 +50,21 @@
 .text--transparent {
     fill: transparent;
 }
+#eventtitle1{
+	height:20%;
+	background: url(img/London-Banner.jpg);
+}	  
 	  </style>
-	  <link rel="stylesheet" type="text/css" href="fonts/morse/stylesheet.css">
+	  
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/Event_title_reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/Event_title_style.css"> <!-- Resource style -->
+	<script src="js/Event_title_modernizr.js"></script> <!-- Modernizr -->	
 		
-		<script>
-			document.documentElement.className = 'js';
-		</script>
-		<script src="js/segment.min.js"></script>
-		<script src="js/d3-ease.v0.6.js"></script>
-		<script src="js/letters.js"></script>	
+		
 		
     </head>
 
@@ -68,22 +72,27 @@
 	<?php 
 		include('header.html');
 	?>
-<div class="container">
-			
-			<section class="content">
-				<ul class="grid">
-					<li class="grid__item">
-						<div class="grid__inner" >
-							
-							<h3 class="grid__heading">chemo quest</h3>
-						</div>
-					</li>
-				</ul>
-			</section>
-			
-		</div>
-		<!-- /container -->
-		<script src="js/demo-2.js"></script>
+	<div id="eventtitle1">
+	<section class="cd-intro" style="color: #fff;">
+		<h1 class="cd-headline clip is-full-width" style="margin-top:30px;">
+
+			<span class="cd-words-wrapper" >
+				<b class="is-visible">Event Name</b>
+				<b >ગુજરાતી</b>
+				<b >गुजराती</b>
+				<b >گجراتی</b>
+				
+				
+			</span>
+		</h1>
+	</section> <!-- cd-intro -->
+	 <!-- Resource jQuery -->
+	 
+<script src="js/Event_title_jquery-2.1.1.js"></script>
+<script src="js/Event_title_main.js"></script>
+
+	</div>
+
 	
 	<div id="Detailsheader">
 	<div class="center white-text" >
