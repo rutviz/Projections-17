@@ -639,10 +639,10 @@
 				var val7 = $("#"+i+" #city").val();
 				var val8 = $("#"+i+" #male"+i).attr("checked", "checked");
 				
-				
+				alert(val8);
 				if(val == "" || val1 =="" || val2 == "" || val3 =="" || val4 == "" || val5 =="" || val6 == "" || val7 =="" || !val8  )
 				{
-					alert("Please fill all fields");
+					alert("Please fill all fields sunny");
 					return;
 				} 
 			}

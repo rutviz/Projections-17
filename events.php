@@ -60,9 +60,9 @@
 						<a data-type="all" href="#0">All</a> <!-- selected option on Event2 -->
 					</li> 
 					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-					<li class="filter" data-filter=".Event1"><a href="#0" data-type="Event1">Event1</a></li>
-					<li class="filter" data-filter=".Event2"><a href="#0" data-type="Event2">Event2</a></li>
-					<li class="filter" data-filter=".Event3"><a href="#0" data-type="Event3">Event3</a></li>
+					<li class="filter" data-filter=".Event1"><a href="#0" data-type="Event1">Technical</a></li>
+					<li class="filter" data-filter=".Event2"><a href="#0" data-type="Event2">Non-Technical</a></li>
+					<li class="filter" data-filter=".Event3"><a href="#0" data-type="Event3">Special Events</a></li>
 				</ul> <!-- cd-filters -->
 			</div> <!-- cd-tab-filter -->
 		</div> <!-- cd-tab-filter-wrapper -->
@@ -80,8 +80,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>Structo</h1><br><br>
+			                <p class="price">₹150 per Person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -106,8 +106,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>MAITRE_DE_CIVIL</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -133,8 +133,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>CODE-DES_PIRATE</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -160,8 +160,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>GEEK WARS</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -187,8 +187,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>HACKTIVIST</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -214,8 +214,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>CRACK_DE_SCRAP</h1><br><br>
+			                <p class="price">₹150per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -241,8 +241,8 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>ENGINOMANIA</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
@@ -268,8 +268,60 @@
 			          <div class="product-description">
 			            <div class="product-label">
 			              <div class="product-name">
-			                <h1>Lorem Ipsum</h1><br><br>
-			                <p class="price">₹ 200</p>
+			                <h1>CHEMOQUEST</h1><br><br>
+			                <p class="price">₹150 per person</p>
+			              </div>
+			            </div>
+			            <div class="product-option">
+			              <div class="product-size"> 
+			              	<br>
+			              	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			     	</div>
+				</li>
+				
+				<li class="mix Event1">
+					
+					<div class="col-md-3">
+			        <div class="product-container">
+			          <div class="product-image">
+			            <span class="hover-link"></span>
+			            <a href="#" class="product-link">view details</a>
+			            <img class="img-responsive" src="http://static.tumblr.com/7260e7013159c01347c55f1c9f4e6fa6/qp1qbto/KYJmii13a/tumblr_static_tumblr_static_icon.png" alt="">
+			          </div>
+			          <div class="product-description">
+			            <div class="product-label">
+			              <div class="product-name">
+			                <h1>SHOCK TRADIGATORS</h1><br><br>
+			                <p class="price">₹150 per person</p>
+			              </div>
+			            </div>
+			            <div class="product-option">
+			              <div class="product-size"> 
+			              	<br>
+			              	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			     	</div>
+				</li><li class="mix Event1">
+					
+					<div class="col-md-3">
+			        <div class="product-container">
+			          <div class="product-image">
+			            <span class="hover-link"></span>
+			            <a href="#" class="product-link">view details</a>
+			            <img class="img-responsive" src="http://static.tumblr.com/7260e7013159c01347c55f1c9f4e6fa6/qp1qbto/KYJmii13a/tumblr_static_tumblr_static_icon.png" alt="">
+			          </div>
+			          <div class="product-description">
+			            <div class="product-label">
+			              <div class="product-name">
+			                <h1>SCIENCE OF STUPID</h1><br><br>
+			                <p class="price">₹150 per person</p>
 			              </div>
 			            </div>
 			            <div class="product-option">
