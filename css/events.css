@@ -52,6 +52,7 @@ Main Components
   width: 100%;
 }
 .cd-main-content.is-fixed .cd-gallery {
+	background-color:AAA !important;
   padding-top: 76px;
 }
 .cd-main-content.is-fixed .cd-filter {
@@ -236,6 +237,7 @@ xgallery
 .cd-gallery {
   padding: 26px 5%;
   width: 100%;
+  background-color:#F2f2f2;
 
 }
 .cd-gallery li {
@@ -259,6 +261,7 @@ xgallery
 @media only screen and (min-width: 768px) {
   .cd-gallery {
     padding: 40px 3%;
+	background-color:#EAEAEA;
   }
   .cd-gallery ul {
     text-align: justify;
@@ -273,6 +276,7 @@ xgallery
     margin-bottom: 2em;
   }
 }
+.ellipsis { text-overflow: ellipsis; }
 @media only screen and (min-width: 1170px) {
   .cd-gallery {
     padding: 50px 2%;
@@ -305,7 +309,7 @@ h1.page-title {
 
 .product-container {
   background-color: #fff;
-  height: 400px;
+  height: 365px;
   overflow: hidden;
   position: relative;
   margin-bottom: 20px;
@@ -314,7 +318,7 @@ h1.page-title {
 }
 
 .tag-sale {
-  background-color: #4fdaa4;
+  background-color: #fff;
   width: 86px;
   height: 98px;
   position: absolute;
@@ -335,7 +339,7 @@ h1.page-title {
 }
 
 .product-description {
-  background-color: #F7F7F7;
+  background-color: #FFF;
   border-top: 1px solid #EFEFEF;
   padding: 25px 40px;
   color: #797979;
@@ -344,7 +348,7 @@ h1.page-title {
 
 .product-image {
 
-  height: 304px;
+  height: 285px;
   position: relative;
   overflow: hidden;
   transition: 1s;
@@ -390,11 +394,11 @@ h1.page-title {
 }
 
 .product-description h1 {
-  font-size: 23px;
+  font-size: 20px;
   margin-bottom: 5px;
   margin-top: 0;
-  display: inline;
-  width: 80%;
+  display: block;
+  text-align:center;
 }
 
 .product-description p {
@@ -402,10 +406,9 @@ h1.page-title {
 }
 
 .product-description .price {
-  display: inline-block;
-  width: 62%;
-  font-size: 23px;
-  text-align: right;
+  display: block;
+  font-size: 20px;
+  text-align:center;
   font-weight: bold;
   color: #2DD493;
   margin-bottom: 5px;
