@@ -9,8 +9,8 @@ a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
 img {border: 0;}
 
 body {
-	background: #fff;
-	color: #fff;
+	background: #f5f5f5;
+	color: #f5f5f5;
 	font-family: sans-serif;
 	font-size: 13px;
 	font-weight: 300;
@@ -32,8 +32,8 @@ body {
 	transition: all 0.1s ease-in;
 }
 
-.btn-transparent {background: rgba(0,0,0, 0.2);}
-.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+.btn-transparent {background: #222;}
+.btn-transparent:hover {background: #222;}
 
 /* Separators */
 .separator {
@@ -57,7 +57,7 @@ body {
 
 #TEAM {
 	padding: 60px 0;
-	background: #111;
+	background: #f5f5f5;
 	text-align: center;	
 }
 
@@ -75,6 +75,7 @@ body {
 	font-family: 'norwester';
 	font-size: 36px;
 	text-transform: uppercase;
+	color: #222;
 }
 
 #TEAM h4  {
@@ -91,6 +92,7 @@ body {
 	top: 10px;
 	font-size: 20px;
 	background: none;
+	color: #222;
 	padding: 0;
 }
 
