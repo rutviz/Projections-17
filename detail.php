@@ -13,7 +13,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <style>
 		body{
-			overflow:hidden;
+		
 		}
 		@media screen and (max-width: 480px) {
 			h1{
@@ -50,10 +50,10 @@
 .text--transparent {
     fill: transparent;
 }
-#eventtitle1{
+/*#eventtitle1{
 	height:20%;
 	background: url(img/London-Banner.jpg);
-}	  
+}*/	  
 	  </style>
 	  
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -64,20 +64,30 @@
 	<link rel="stylesheet" href="css/Event_title_style.css"> <!-- Resource style -->
 	<script src="js/Event_title_modernizr.js"></script> <!-- Modernizr -->	
 		
-		
+		<script>
+			
+ function navcolor(){
+ 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
+	</script>
 		
     </head>
 
-    <body class="black">
+    <body onscroll="navcolor();" class="black">
 	<?php 
 		include('header.html');
 	?>
-	<div id="eventtitle1">
-	<section class="cd-intro" style="color: #fff;">
+	<div class="parallax-container hide-on-med-and-down " style="height: 300px; "> 
+		<section class="cd-intro " style="color: #fff;">
 		<h1 class="cd-headline clip is-full-width" style="margin-top:30px;">
 
 			<span class="cd-words-wrapper" >
-				<b class="is-visible">Event Name</b>
+				<b class="is-visible">Gujarati</b>
 				<b >ગુજરાતી</b>
 				<b >गुजराती</b>
 				<b >گجراتی</b>
@@ -85,13 +95,37 @@
 				
 			</span>
 		</h1>
-	</section> <!-- cd-intro -->
+	</section>
+	   <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
+    </div>        
+ 
+		<div class="parallax-container hide-on-large-only " style="height: 200px; "> 
+		<section class="cd-intro " style="color: #fff;">
+		<h1 class="cd-headline clip is-full-width" style="margin-top:85px;">
+
+			<span class="cd-words-wrapper" >
+				<b class="is-visible">Gujarati</b>
+				<b >ગુજરાતી</b>
+				<b >गुजराती</b>
+				<b >گجراتی</b>
+				
+				
+			</span>
+		</h1>
+	</section> 
+	   <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
+    </div>        
+
+	      
+	        
+	       
+     <!-- cd-intro -->
 	 <!-- Resource jQuery -->
 	 
 <script src="js/Event_title_jquery-2.1.1.js"></script>
 <script src="js/Event_title_main.js"></script>
 
-	</div>
+	
 
 	
 	<div id="Detailsheader">
@@ -104,9 +138,15 @@
 	</ul>
 	</div>
 	</div>
-	<div class="carousel carousel-slider center" >
+	
+	<div class="carousel carousel-slider center" style="height:auto" >
     
-    <div class="carousel-item white black-text" href="#one!" >
+    <div class="carousel-item white white-text" href="#one!" style="
+
+background: #44A08D; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #44A08D , #093637); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #44A08D , #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        " >
 	  <p style="font-size:150%; font-weight:600;">Solve the quest, feel like a scientist !!</p>
       
 
@@ -117,7 +157,12 @@
 
 
 	  </div>
-    <div class="carousel-item blue white-text" href="#two!" style="background:cover;">
+    <div class="carousel-item blue white-text" href="#two!" style="
+
+background: #C04848; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #C04848 , #480048); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #C04848 , #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ">
      <p style="font-size:150%; font-weight:600;">Round-1</p>
       
 
@@ -134,16 +179,25 @@
 
 <p style="font-size:150%;">•	The procedure and the chemicals would be given and they have to make the product as per the procedure.</p>  
 <p style="font-size:150%;">•	Selection would be done on the basis of accurate product and the first one to complete it.</p>  
-    
+
     </div>
-    <div class="carousel-item green white-text" href="#three!">
+    <div class="carousel-item green white-text" href="#three!" style="
+background: #5614B0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #5614B0 , #DBD65C); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #5614B0 , #DBD65C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ">
       <p style="font-size:150%">•	No use of internet until instructed to.</p>
 <p style="font-size:150%">•	Take safety measure for chemicals.</p>
 <p style="font-size:150%">•	Any damage to the property, participants would be responsible and has to pay fine as per it.</p>
 <p style="font-size:150%">•	Discipline is must.</p>
 </p>
     </div>
-    <div class="carousel-item blue white-text" href="#four!">
+    <div class="carousel-item blue white-text" href="#four!" style="
+
+background: #F3904F; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F3904F , #3B4371); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ">
     
 	<div class="teammember">
 	<div class="teammember__img" title="Image of Jinil Patel" style="background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/0c0/17c/10a99d5.jpg); background-size: cover;">
@@ -186,9 +240,24 @@
 </div>
     </div>
   </div>
+     <script src="js/clipboard.min.js"></script>
+
+    <!-- 3. Instantiate clipboard by passing a HTML element -->
+    <script>
+    var btn = document.getElementById('phone');
+	var btn = document.getElementById('email');
+    var clipboard = new Clipboard(btn);
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
 <script type="text/javascript" src="js/details_contact_card.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script>
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <!-- Compiled and minified JavaScript -->
