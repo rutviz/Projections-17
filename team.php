@@ -33,7 +33,7 @@
 
 <style>
 	.fa {
-		color: #fff;
+		color: #222;
 	}
 
 	.indicator{
@@ -55,47 +55,19 @@
 	.tab.col.s4 {
 		    font-family: 'norwester';
 	}
-
-	header{
-		
-		position:sticky;
-	}
 </style>
 
-<script>
-	function navcolor(){
- 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
-</script>
 </head>
 
-<body onscroll="navcolor();" style="background-color: #111;">
+<body style="background-color: #f5f5f5;">
 
 <?php
 		include('header.html');
-	?>
-		<div class="parallax-container" style="height: 400px"> 
-	<div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center hide-on-med-and-down" style="margin-top: 16%; font-size: 100px; color: #fff; font-weight: 600;">
-          <div class="header col s12 dark">Team</div>
-        </div>
-        <div class="row center hide-on-large-only" style="margin-top: 50%; font-size: 50px; color: #fff; font-weight: 600;">
-          <div class="header col s12 dark">Team</div>
-        </div>
-      </div>
-    </div>
-      <div class="parallax"><img src="http://mmbiz.qpic.cn/mmbiz/YXVjva55r1Dr04ueazbqllZGr73YEgW1l5J0V4164qJ2hgUYK3eKy8oXibrwcuUNW4lTy02oQ6LlAYoSNdsWUcg/0?wx_fmt=jpeg" style="background-color: #fff;"> </div>
-    </div>
-
+	?> 
+	
   <div class="row" >
     <div class="col s8 offset-s2" style="text-align: center; overflow: hidden; margin-top: 0.3%;">
-      <ul class="tabs " style="background-color: #111; text-align: center;">
+      <ul class="tabs " style="background-color: #f5f5f5; text-align: center;">
         <li class="tab col s6"><a href="#core" style="color: #1565c0; font-size: 18px; font-weight: 500;">Core Team</a>
         <li class="tab col s6"><a href="#web" style="color: #1565c0; font-size: 18px; font-weight: 500;">Web Team</a>
       </ul>
@@ -115,10 +87,10 @@
 					<div class="col m3 c1" style="display: none" >
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #122;" />
+							<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #122;"/>
+							<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #ddd;"/>
 							</div>
 							<span>Core Team</span>
 							<h4><span>Harshit </span> Singh</h4>
@@ -137,10 +109,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-2.png" style="background-color: #122;" />
+							<img src="img/team-2.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-2.png" style="background-color: #122;" />
+							<img src="img/team-2.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Rutviz</span> Vyas</h4>
@@ -158,10 +130,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-3.png" style="background-color: #122;" />
+							<img src="img/team-3.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-3.png" style="background-color: #122;" />
+							<img src="img/team-3.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Dhrumit</span> Patel</h4>
@@ -179,10 +151,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-4.png" style="background-color: #122;" />
+							<img src="img/team-4.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-4.png" style="background-color: #122;" />
+							<img src="img/team-4.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Sunny</span> Radadiya</h4>
@@ -205,10 +177,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-3.png" style="background-color: #122;" />
+							<img src="img/team-3.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-3.png" style="background-color: #122;" />
+							<img src="img/team-3.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Dhrumit</span> Patel</h4>
@@ -226,10 +198,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-4.png" style="background-color: #122;" />
+							<img src="img/team-4.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-4.png" style="background-color: #122;" />
+							<img src="img/team-4.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Sunny</span> Radadiya</h4>
@@ -247,10 +219,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-1.png" style="background-color: #122;" />
+							<img src="img/team-1.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-1.png" style="background-color: #122;" />
+							<img src="img/team-1.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Harshit </span> Singh</h4>
@@ -268,10 +240,10 @@
 					<div class="col m3">
 						<div class="member-profile">
 							<div class="unhover_img">
-							<img src="img/team-2.png" style="background-color: #122;" />
+							<img src="img/team-2.png" style="background-color: #ddd;" />
 							</div>
 							<div class="hover_img">
-							<img src="img/team-2.png" style="background-color: #122;" />
+							<img src="img/team-2.png" style="background-color: #ddd;" />
 							</div>
 							<span>Core Team</span>
 							<h4><span>Rutviz</span>Vyas</h4>
@@ -305,10 +277,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-3.png" style="background-color: #122;" />
+						<img src="img/team-3.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-3.png" style="background-color: #122;" />
+						<img src="img/team-3.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Dhrumit</span> Patel</h4>
@@ -326,10 +298,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-4.png" style="background-color: #122;" />
+						<img src="img/team-4.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-4.png" style="background-color: #122;" />
+						<img src="img/team-4.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Sunny</span> Radadiya</h4>
@@ -347,10 +319,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-1.png" style="background-color: #122;" />
+						<img src="img/team-1.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-1.png" style="background-color: #122;" />
+						<img src="img/team-1.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Harshit </span> Singh</h4>
@@ -368,10 +340,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-2.png" style="background-color: #122;" />
+						<img src="img/team-2.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-2.png" style="background-color: #122;" />
+						<img src="img/team-2.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Rutviz</span>Vyas</h4>
@@ -394,10 +366,10 @@
 				<div class="col m3 c1" style="display: none" >
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #122;" />
+						<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #122;"/>
+						<img src="img/team-1.png" alt="Harshit Singh" title="Profile-Pic" style="background-color: #ddd;"/>
 						</div>
 						<span>Web Team</span>
 						<h4><span>Harshit </span> Singh</h4>
@@ -416,10 +388,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-2.png" style="background-color: #122;" />
+						<img src="img/team-2.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-2.png" style="background-color: #122;" />
+						<img src="img/team-2.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Rutviz</span> Vyas</h4>
@@ -437,10 +409,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-3.png" style="background-color: #122;" />
+						<img src="img/team-3.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-3.png" style="background-color: #122;" />
+						<img src="img/team-3.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Dhrumit</span> Patel</h4>
@@ -458,10 +430,10 @@
 				<div class="col m3">
 					<div class="member-profile">
 						<div class="unhover_img">
-						<img src="img/team-4.png" style="background-color: #122;" />
+						<img src="img/team-4.png" style="background-color: #ddd;" />
 						</div>
 						<div class="hover_img">
-						<img src="img/team-4.png" style="background-color: #122;" />
+						<img src="img/team-4.png" style="background-color: #ddd;" />
 						</div>
 						<span>Web Team</span>
 						<h4><span>Sunny</span> Radadiya</h4>
@@ -492,12 +464,11 @@
 	 <!--Import jQuery before materialize.js-->
     
        <!-- Compiled and minified JavaScript -->
-  	<script src="js/materialize.min.js"></script>
+  	<script src="materialize.min.js"></script>
 
 	<script>
 		
   $(document).ready(function(){
-  	 $('.parallax').parallax();
   	$(".c1").show();
   	$(".c1").fadeIn();
     $('.tooltipped').tooltip({delay: 50});
