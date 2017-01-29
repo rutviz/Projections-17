@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!-- Montserrat -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	 <meta http-equiv="Cache-control" content="no-transform">
@@ -18,8 +19,11 @@
 		background-color:#f5f5f5;
 	}
 	header{
-		
 		position:sticky;
+	}
+
+	.parallax-container {
+		font-family: 'Montserrat', sans-serif !important;
 	}
 	</style>
 	<title>Filter</title>

@@ -9,12 +9,13 @@ a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
 img {border: 0;}
 
 body {
-	background: #f5f5f5;
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 	color: #f5f5f5;
 	font-family: sans-serif;
 	font-size: 13px;
 	font-weight: 300;
-
 }
 
 /* Buttons */
@@ -57,8 +58,11 @@ body {
 
 #TEAM {
 	padding: 60px 0;
-	background: #f5f5f5;
-	text-align: center;	
+	text-align: center;
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        	
 }
 
 #TEAM p {
@@ -75,7 +79,7 @@ body {
 	font-family: 'norwester';
 	font-size: 36px;
 	text-transform: uppercase;
-	color: #222;
+	color: #fff;
 }
 
 #TEAM h4  {
@@ -91,8 +95,8 @@ body {
 	left: -40px;
 	top: 10px;
 	font-size: 20px;
+	color: #fff;
 	background: none;
-	color: #222;
 	padding: 0;
 }
 
