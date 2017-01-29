@@ -1,0 +1,123 @@
+body {
+	background-color: #282e3a;
+	font-family:tahoma;
+}
+
+h1 {
+	color:#fff;
+	text-align:center;
+	font-size: 72px;
+	letter-spacing: 10px;
+}
+
+#countdownContainer {
+	width:50%;
+	margin:15% auto;
+}
+
+#clock span {
+	float:left;
+	text-align: center;
+	font-size: 70px;
+	font-weight: 600;
+	margin: 0 2.5%;
+	color: #fff;
+	padding:20px;
+	width:20%;
+	border-radius:20px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    #clock span {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #countdownContainer {
+	width:90%;
+	margin:15% auto;
+}
+}
+
+@media screen and (max-width: 780px, min-width: 481px) {
+  
+    #countdownContainer {
+	width:60%;
+	margin:15% auto;
+	margin-bottom: 30%;
+	}
+
+	#clock span {
+	float:left;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin: 0 2.5%;
+	color: #fff;
+	padding:20px;
+	width:20%;
+	border-radius:20px;
+	box-sizing: border-box;
+	}
+
+}
+
+#clock span:first-child{
+	
+	background: #0575E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#clock span:nth-child(2){
+	
+	
+	background: #FF8008; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF8008 , #FFC837); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF8008 , #FFC837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#clock span:nth-child(3){
+
+	background: #e52d27; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #e52d27 , #b31217); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #e52d27 , #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                 
+}
+
+#clock span:nth-child(4){
+	
+	background: #56ab2f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #56ab2f , #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #56ab2f , #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                   
+}
+
+#clock:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#box-title span{
+	float:left;
+	text-align: center;
+	font-size: 13px;
+	/*margin-top:30px;*/
+	color: #ddd;
+	padding:20px;
+	width:20%;
+	letter-spacing: 2px;
+}
+
+span.turn{
+	animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+	0% {transform: rotateX(0deg)}
+	100% {transform: rotateX(360deg)}
+}

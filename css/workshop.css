@@ -1,7 +1,6 @@
 .event-card {
   width: 60%;
   height: 45%;
-  background-color: white;
   box-shadow: 20px 20px 50px 0 rgba(50,50,50, 0.3);
   position: relative;
   display: block;
@@ -11,6 +10,7 @@
   margin-right:20%;
   max-height:300px;
   float:left !important;
+
 }
 .column{
 width:100%;
@@ -24,7 +24,16 @@ html {
   width: 100%;
   justify-content: center;
   align-items: center;
+  background: #0b0b0b !important; 
+  background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
+  background: linear-gradient(to left, #0b0b0b , #383838) !important; 
 }
+.back{
+  background: #0b0b0b !important; 
+  background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
+  background: linear-gradient(to left, #0b0b0b , #383838) !important; 
+}
+
 .event-card:hover  .event-card_details{
 Transition : all 1s ease;
 width:40% !important;
