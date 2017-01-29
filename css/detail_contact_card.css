@@ -5,7 +5,7 @@
   margin-left:3%;
   margin-top:3%;
   position:relative;
-  height: 50%;
+  height: 55%;
   width: 45%;
   background: #3C3C3C;
   display: -webkit-box;
@@ -112,7 +112,7 @@
 @media screen and (max-height: 900px) and (max-width: 500px){
  .teammember{
  width: 90%;
- height: 40%;
+ height: 45%;
  }
  .teammember__content__contact li {
  font-size:0.85rem;
