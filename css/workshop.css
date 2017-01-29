@@ -10,6 +10,7 @@
   margin-right:20%;
   max-height:300px;
   float:left !important;
+  background-color:white;
 
 }
 .column{
@@ -24,12 +25,14 @@ html {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background: #0b0b0b !important; 
+  /*
+ background: #0b0b0b !important; 
   background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
-  background: linear-gradient(to left, #0b0b0b , #383838) !important; 
+  background: linear-gradient(to left, #0b0b0b , #383838) !important; */
 }
 .back{
-  background: #0b0b0b !important; 
+
+ background: #0b0b0b !important; 
   background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
   background: linear-gradient(to left, #0b0b0b , #383838) !important; 
 }

@@ -25,7 +25,7 @@
       <div class="parallax"><img src="http://www.planwallpaper.com/static/images/City_Landscape_Background.jpg" style="background-color: #222"> </div>
     </div>
 
-	<div class="back">
+	<section class="back">
         <div class="event-card">
             <div class="event-card_details" >
             <img src="logo/w1.png"/>
@@ -64,7 +64,7 @@
                <button>About Workshop</button>
             </div>
         </div>
-    </div>
+    
 
     <div class="event-card">
         <div class="event-card_details" >
@@ -144,9 +144,7 @@
   </div>
 </div>
 </div>
-<div style="height:500px; display:relative">
-hello
-</div>
+	</section>	
 <script src="js/jquery-2.1.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   
