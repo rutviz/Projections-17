@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<link rel="stylesheet" href="css/workshop.css">
 </head>
-<body onscroll="navcolor();">
+<body class="back" onscroll="navcolor();">
  
  <?php include("header.html"); ?>
 	
@@ -25,7 +25,7 @@
       <div class="parallax"><img src="http://www.planwallpaper.com/static/images/City_Landscape_Background.jpg" style="background-color: #222"> </div>
     </div>
 
-	<section class="back">
+	
         <div class="event-card">
             <div class="event-card_details" >
             <img src="logo/w1.png"/>
@@ -144,7 +144,7 @@
   </div>
 </div>
 </div>
-	</section>	
+	
 <script src="js/jquery-2.1.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   
