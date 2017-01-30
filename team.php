@@ -136,9 +136,9 @@
 						</div>	
 						
 						<ul>
-							<li><a href="#" class="col s2" onclick="Materialize.toast('Harshit\'s Mob: +91 823-896-6338', 3000, 'rounded')"><i class="fa fa-phone"></i></a></li>
+							<li><a class="col s2" onclick="Materialize.toast('Harshit\'s Mob: +91 823-896-6338', 3000, 'rounded')"><i class="fa fa-phone"></i></a></li>
 
-							<li><a href="#" class="col s2" onclick="Materialize.toast('Harshit\'s E-mail: harshitks2203@gmail.com', 3000, 'rounded')"><i class="fa fa-envelope"></i></a></li>
+							<li><a class="col s2" onclick="Materialize.toast('Harshit\'s E-mail: harshitks2203@gmail.com', 3000, 'rounded')"><i class="fa fa-envelope"></i></a></li>
 
 							<li><a href="#" target="_blank" class="col s2"><i class="fa fa-facebook"></i></a></li>	 		
 						</ul>

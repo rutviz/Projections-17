@@ -48,14 +48,14 @@
 		<div class="section no-pad-bot">
 	      <div class="container">
 	        <div class="row center hide-on-med-and-down" style="margin-top: 16%; font-size: 100px; color: #fff; font-weight: 600;">
-	          <div class="header col s12 dark">Events</div>
+	          <div class="header col s12 dark" style="margin-left: -7%;">Events</div>
 	        </div>
 	        <div class="row center hide-on-large-only" style="margin-top: 50%; font-size: 50px; color: #fff; font-weight: 600;">
-	          <div class="header col s12 dark">Events</div>
+	          <div class="header col s12 dark" style="margin-left: -16%; ">Events</div>
 	        </div>
 	      </div>
 	    </div>
-      <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
+      <div class="parallax"><img src="https://em.wattpad.com/c7286e262409b8bbde9c3b5d7ba70466faa6ce4c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f75357a394a68595147646d586b773d3d2d3334343730383933382e313438663839653531303761653033663133343434303535383335322e6a7067?s=fit&w=1280&h=1280"> </div>
     </div>
 
 	<div>
