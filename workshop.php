@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<link rel="stylesheet" href="css/workshop.css">
 </head>
-<body class="back" onscroll="navcolor();">
+<body onscroll="navcolor()" class="back" >
  
  <?php include("header.html"); ?>
 	
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-      <div class="parallax"><img src="http://www.planwallpaper.com/static/images/City_Landscape_Background.jpg" style="background-color: #222"> </div>
+      <div class="parallax"><img src="img/workshopbg.jpg" style="background-color: #222"/> </div>
     </div>
 
 	
@@ -37,11 +37,12 @@
             </div>
         	<div class="event-card__image__notif">  Registration Fee: Rs 500 per Individual</div>
 
-            <div class="event-card__text">
+            <div class="event-card__text" >
                 <h1>Hacktrack</h1>
                 <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
             	  <h3>Speaker: Sunny Wagela</h3>
-                <button>About Workshop</button>
+
+                <button style="right: 41%;">Register Now</button><button>About Workshop</button>
             </div>
         </div>
       
@@ -61,7 +62,7 @@
                <h1>Hacktrack</h1>
                <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
                <h3>Speaker: Sunny Wagela</h3>
-               <button>About Workshop</button>
+               <button style="right: 41%;">Register Now</button><button>About Workshop</button>
             </div>
         </div>
     
@@ -83,7 +84,7 @@
             <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
         	<h3>Speaker: Sunny Wagela</h3>
         	
-            <button>About Workshop</button>
+            <button style="right: 41%;">Register Now</button><button>About Workshop</button>
         </div>
     </div>
 
@@ -102,7 +103,7 @@
     <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
 	<h3>Speaker: Sunny Wagela</h3>
 	
-    <button>About Workshop</button>
+    <button style="right: 41%;">Register Now</button><button>About Workshop</button>
   </div>
 </div>
 </div>
@@ -121,7 +122,7 @@
     <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
 	<h3>Speaker: Sunny Wagela</h3>
 	
-    <button>About Workshop</button>
+    <button style="right: 41%;">Register Now</button><button>About Workshop</button>
   </div>
 </div>
 </div>
@@ -140,7 +141,7 @@
     <p>For the enthusiastic beginners to learn the basics of Ethical hacking</p>
 	<h3>Speaker: Sunny Wagela</h3>
 	
-    <button>About Workshop</button>
+    <button style="right: 41%;">Register Now</button><button>About Workshop</button>
   </div>
 </div>
 </div>

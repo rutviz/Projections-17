@@ -1,6 +1,7 @@
 .event-card {
-  width: 60%;
+  width: 59%;
   height: 45%;
+  background-color:white;
   box-shadow: 20px 20px 50px 0 rgba(50,50,50, 0.3);
   position: relative;
   display: block;
@@ -24,9 +25,7 @@ html {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background: #0b0b0b !important; 
-  background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
-  background: linear-gradient(to left, #0b0b0b , #383838) !important; 
+ 
 }
 .back{
   background: #0b0b0b !important; 
@@ -37,18 +36,14 @@ html {
 .event-card:hover  .event-card_details{
 Transition : all 1s ease;
 width:40% !important;
- background-position: -100px top;
-  -webkit-clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
-  shape-outside: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
-  -webkit-shape-outside: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://dlazer.xyz/p16/img/event/aircraft.png");
+filter: brightness(50%);
 } 
 .event-card:hover  .event-card__text button{
 opacity:1
 }
 .event-card:hover .event-card__text{
 opacity:1;
+
 }.event-card:hover .event-card__text h1{
 display: block;
 }.event-card:hover .event-card__text h3{
@@ -62,7 +57,8 @@ display: block;
   height: 100%;
   shape-margin: 30px;
   display: inline-block;
-  float: left;
+  float: left;	
+  
 background-position: -100px top;
   -webkit-clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
@@ -79,6 +75,8 @@ transition: all 2s ease;
   font-weight: 300;
   line-height: 20px;
   transition:opacity 2s;
+  
+  
 }
 .event-card__text p {	
   color: #8c8c8c;
@@ -147,6 +145,7 @@ font-size: 19px !important;
   position: absolute;
   display:inline-block;
   left: 15px;
+  width:25%;
   bottom: 15px;
   color: white;
   font-family: 'Raleway', sans-serif;
