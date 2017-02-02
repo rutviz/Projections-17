@@ -145,11 +145,8 @@
   </div>
 </div>
 </div>
-<<<<<<< HEAD
+
 	<?php include("footer.html"); ?>
-=======
-	
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
 <script src="js/jquery-2.1.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   
