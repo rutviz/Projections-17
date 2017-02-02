@@ -1,3 +1,41 @@
+
+a{
+		color:black!important;
+		font-weight:Bold!important;
+		outline:none;
+		}
+		.tab a.active {
+			outline:none;
+		}
+		header{
+		background-color:black;
+		}
+		.indicator
+		{
+		background-color:black!important;
+		}
+		#titlename{
+		height:auto;
+		width:100%;
+		background:url(../img/London-Banner.jpg);
+			background-size:cover;
+		}
+		#tabs-swipe-demo{
+		background-color: rgba(255, 255, 255, 0.85);
+		color:black;
+		}
+		h1{
+		margin:0;}
+		@media screen and (max-height: 900px) and (max-width: 500px){
+		#titlename{
+		margin-top:17%;
+		height:auto;
+		}
+		 a{
+		 font-size:10px!important;
+		}
+		
+		}
 body,html{
 	position:relative;
 	height:100%;
@@ -54,7 +92,7 @@ body,html{
 	width:50%;
 	margin-left:25%;
 	margin-right:25%;
-	margin-top:4.5%; 
+	margin-top:7%; 
 }	
 
 .swiper-slide{
@@ -81,7 +119,4 @@ margin-right:0%;
 #text{
 height:40px;
 }
-}
-#tabs-swipe-demo{
-	margin-top: 1% !important;
 }

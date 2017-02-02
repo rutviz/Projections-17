@@ -28,10 +28,10 @@
 	<div>
        <div class="event-card" >
 			<div class="event-card_details hide-on-large-only">
-            <img src="logo/w1m.png" id="image">
+            <img src="logo/w2m.png" id="image">
 			</div>
-			<div class="event-card_details hide-on-small-and-mid">
-            <img src="logo/w1.png" id="image">
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w2.png" id="image">
 			</div>
             
             <div class="event-card__image__date">
@@ -50,9 +50,12 @@
         </div>
       
        <div class="event-card">
-            <div class="event-card_details" >
-            <img src="logo/w2.png" />
-            </div>
+           <div class="event-card_details hide-on-large-only">
+            <img src="logo/w3m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w3.png" id="image">
+			</div>
         
             <div class="event-card__image__date">
                 <i class="material-icons icon">&#xE192;</i>
@@ -71,9 +74,12 @@
     
 
 	   <div class="event-card">
-        <div class="event-card_details" >
-        <img src="logo/w3.png"/>
-        </div>
+      <div class="event-card_details hide-on-large-only">
+            <img src="logo/w4m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w4.png" id="image">
+			</div>
          
         <div class="event-card__image__date">
               <i class="material-icons icon">&#xE192;</i>
@@ -91,10 +97,13 @@
         </div>
     </div>
 
-       <div class="event-card">
-<div class="event-card_details" >
-<img src="logo/w4.png"/>
-</div>
+			<div class="event-card">
+				<div class="event-card_details hide-on-large-only">
+            <img src="logo/w5m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w5.png" id="image">
+			</div>
  <div class="event-card__image__date">
       <i class="material-icons icon">&#xE192;</i>
       <p><span class="number">11</span> JUN</p>
@@ -111,10 +120,12 @@
 </div>
 
        <div class="event-card">
-<div class="event-card_details" >
-<img src="logo/w5.png"/>
-</div>
- <div class="event-card__image__date">
+			<div class="event-card_details hide-on-large-only">
+            <img src="logo/w6m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w6.png" id="image">
+			</div> <div class="event-card__image__date">
       <i class="material-icons icon">&#xE192;</i>
       <p><span class="number">11</span> JUN</p>
     </div>
@@ -129,10 +140,12 @@
   </div>
 </div>
        <div class="event-card">
-<div class="event-card_details" >
-<img src="logo/w6.png"/>
-</div>
- <div class="event-card__image__date">
+			<div class="event-card_details hide-on-large-only">
+            <img src="logo/w1m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-med-and-down">
+            <img src="logo/w1.png" id="image">
+			</div> <div class="event-card__image__date">
       <i class="material-icons icon">&#xE192;</i>
       <p><span class="number">11</span> JUN</p>
     </div>

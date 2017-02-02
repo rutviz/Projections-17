@@ -16,73 +16,31 @@
 	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
 	
 		<style>
-		 a{
-		color:white!important;
-		font-weight:Bold!important;
-		}
-		.tab a.active {
-			outline:none;
-		}
-		</style>
-			
-		
-		<style>
-		a{
-		outline:none;
-		}
-		.indicator
-		{
-		background-color:white!important;
-		}
-		#titlename{
-		height:42%;width:100%;background:url(img/London-Banner.jpg);background-size:cover;
-		}
-		#tabs-swipe-demo{
-		
-		color:white;
-		}
-		h1{
-		margin:0;}
-		@media screen and (max-height: 900px) and (max-width: 500px){
-		#titlename{
-		margin-top:17%;
-		height:auto;
-		}
-		 a{
-		 font-size:10px!important;
-		}
-		
-		}
+		 
 		
 		</style>
     </head>
 
-    <body onscroll="navcolor();" class="black">
+    <body class="black">
 	<?php 
 		include('header.html');
 	?>
 
 		<div id="titlename" >
 		<center><h1 class="cd-headline clip is-full-width" >
-
 			<span class="cd-words-wrapper" id="eventtitle1">
 				<b class="is-visible">Chemo Quest</b>
 				<b >चेमो क्वेस्ट</b>
 				<b >ચેમો કુએસ્ત</b>
-				
-				
-				
 			</span>
 		</h1></center>
-		 <ul id="tabs-swipe-demo" class="tabs swipe transparent center " >
+	</div>
+		 <ul id="tabs-swipe-demo" class="tabs swipe center " >
 			<li class="tab col s3" onclick="moveit(0)"><a class="active" href="#test-swipe-0">Description</a></li>
 			<li class="tab col s3" onclick="moveit(1)"><a href="#test-swipe-1" >Rounds</a></li>
 			<li class="tab col s3" onclick="moveit(2)"><a href="#test-swipe-2">Rules</a></li>
 			<li class="tab col s3" onclick="moveit(3)"><a href="#test-swipe-3">Contact</a></li>
 		  </ul>	
-
-		</div>
-
 	      
 	        
 	       
@@ -302,14 +260,7 @@ swiper1.on('onSlideNextStart',function(){
 		
 		//alert("change");
   });
- function navcolor(){
- 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
+
   $(document).ready(function(){
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();
