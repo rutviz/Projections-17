@@ -11,6 +11,7 @@ header{
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+	font-weight: 600;
 }
 header:hover{
 	
@@ -45,8 +46,12 @@ header li a:hover {
 }
 header #menu{
 	float:right;
-	
 }
+
+.material-icons{
+	color: #fff !important;
+}
+
 #logo{
 	position:absolute;
 	padding: 12px 8px;
@@ -63,38 +68,54 @@ header #menu{
 }
 #logo1{
 	width:30px;
-	margin:2%;
-	margin-left:45%;
+	margin: 2%;
+	margin-left:25%;
 
 }
+.side-nav{
+	background: rgb(59,103,158); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+  }
+
 #sidenav-overlay{
 	z-index:1 !important;
+
 }
 #side ul li a{
-	color:black!important;
+	color: #fff !important;
+	font-weight: 600;
 }
 
 /* End */</style>
 <header	class="">
 	<div class="hide-on-large-only nav" ><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color:white">menu</i></a></div>
-	<div id="logo" class="animated hide-on-med-and-down zoomIn" ><a href="index.php"><img src="images/logo1.png" height="50px"></img></a></div>
-	<div id="logo1" class="animated hide-on-large-only zoomIn"><a href="index.php"><img src="images/logo1.png" height="50px"></img></a></div>
+	<div id="logo" class="animated hide-on-med-and-down zoomIn" ><a href="index.php"><img src="images/p17.png" height="50px"></img></a></div>
+	<div id="logo1" class="animated hide-on-large-only zoomIn"><a href="index.php"><img src="images/p17.png" height="50px"></img></a></div>
 	
 	
 	<div id="menu">
 	<ul class="hide-on-med-and-down">
-		<!--<li><img src="images/logo.png"></img></li>-->
+		<!--<li><img src="images/p17.png"></img></li>-->
 	  <li><a class="active" href="index.php">Home</a></li>
 	  <li><a href="events.php">Events</a></li>
 	  <li><a href="workshop.php">Workshop</a></li>
 	  <li><a href="team.php">Team</a></li>
-	  <li><a href="#contact">Sponsors</a></li>
-	  <li><a href="#about">About</a></li>
+	  <li><a href="sponsors.php">Sponsors</a></li>
+	  <li><a href="about.php">About</a></li>
 	</ul>
 	</div>
 	<div id="side">
-	<ul id="slide-out" class="side-nav left-align" style="width:220px;color:black!important;z-index:9999 !important">
-	   
+	<ul id="slide-out" class="side-nav left-align" style="width:220px;z-index:9999 !important">
+	   <li><div class="userView" style="height: 80px">
+      <div class="background">
+        <img src="http://materializecss.com/images/office.jpg">
+      </div>
+     <img class="" src="images/p17.png" width="200px">
+    </div></li>
 	   <li><a class="waves-effect" href="index.php"><i class="material-icons">home</i>Home</a></li>
 		<li><a class="waves-effect" href="events.php"><i class="material-icons">code</i>Event</a></li>
 		<li><a class="waves-effect" href="workshop.php"><i class="material-icons">nature_people</i>Workshop</a></li>

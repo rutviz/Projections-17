@@ -24,6 +24,8 @@
 	<link rel="stylesheet" type="text/css" href="css/team.css" /> <!-- Main stylesheet /-->
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'> <!-- Open Sans /-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!-- Montserrat -->
+    
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'> <!-- PT Sans Narrow /-->
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> <!-- Font Awesome /-->
 	
@@ -45,7 +47,7 @@
 
 <style>
 	.fa {
-		color: #222;
+		color: #fff;
 	}
 
 	.indicator{
@@ -65,15 +67,28 @@
 	.tab.col.s4 {
 		    font-family: 'norwester';
 	}
+
+	.tabs {
+		background: #0b0b0b; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #0b0b0b , #383838); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #0b0b0b , #383838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+	.parallax-container {
+		font-family: 'Montserrat', sans-serif !important;
+	}
 </style>
 
 </head>
 
-<body onscroll="navcolor();" style="background-color: #f5f5f5;">
+<body onscroll="navcolor();" style="
 
-<?php 
-	include('header.html');
-?>
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        ">
+
+<?php include('header.html'); ?>
 
 	<div class="parallax-container" style="height: 400px"> 
 		<div class="section no-pad-bot">
@@ -121,9 +136,9 @@
 						</div>	
 						
 						<ul>
-							<li><a href="#" class="col s2" onclick="Materialize.toast('Harshit\'s Mob: +91 823-896-6338', 3000, 'rounded')"><i class="fa fa-phone"></i></a></li>
+							<li><a class="col s2" onclick="Materialize.toast('Harshit\'s Mob: +91 823-896-6338', 3000, 'rounded')"><i class="fa fa-phone"></i></a></li>
 
-							<li><a href="#" class="col s2" onclick="Materialize.toast('Harshit\'s E-mail: harshitks2203@gmail.com', 3000, 'rounded')"><i class="fa fa-envelope"></i></a></li>
+							<li><a class="col s2" onclick="Materialize.toast('Harshit\'s E-mail: harshitks2203@gmail.com', 3000, 'rounded')"><i class="fa fa-envelope"></i></a></li>
 
 							<li><a href="#" target="_blank" class="col s2"><i class="fa fa-facebook"></i></a></li>	 		
 						</ul>

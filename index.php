@@ -53,28 +53,21 @@
 	<img class="animated bounceInDown" id="p3" src="png/3.png" width="18%"></img>
 	<img class="animated bounceInUp" id="p2" src="png/2.png" width="41%" ></img>
 	<img class="animated bounceInRight" id="p1" src="png/1.png" width="35%"></img>
-	<h1 class="animated flipInY" id="name">PROJECTIONS</h1>
+	<h1 class="animated flipInY" id="name">PROJECTIONS'17</h1>
 	</div>
 	<div id="mtotal" class="animated hide-on-large-only" style="top:43%;left:20%;position:fixed;">
 	<img class="animated bounceInDown" id="mp3" src="png/3.png" width="20px"></img>
 	<img class="animated bounceInUp" id="mp2" src="png/2.png" width="41px" ></img>
 	<img class="animated bounceInRight" id="mp1" src="png/1.png" width="35px"></img>
-	<h6 class="animated flipInY" id="mname" style="font-size: 30px;">PROJECTIONS</h6>
+	<h6 class="animated flipInY" id="mname" style="font-size: 30px;">PROJECTIONS'17</h6>
 	</div>
-	<div class="container" style="position: absolute;margin-top: 20%;margin-left: 15%">
-	  <div class="row">
-	  <div class="col m6">
-	  <div class="animated zoomIn"  id="concert" style="background-color: #FFF;z-index:9">
-		<h3>
-		Event Content
-		</h3></div></div>
-		<div class="col m6">
-	  <div class="animated zoomIn"  id="concert1" style="background-color: #FFF;z-index:9">
-		<h3>
-		Event Content
-		</h3></div></div>
+	<div class=" animated bounceInDown white-text workshops"> 
+		<h4>Workshop : 1 & 2 March</h4>
 	</div>
+	<div class=" animated bounceInDown white-text events"> 
+		<h4>Events : 3 & 4 March</h4>
 	</div>
+	
 	</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
@@ -91,32 +84,8 @@
 		$("#total").addClass('zoomOut');
 
 	} );
-	$('#logo').on('webkitAnimationEnd animationend',function(event){
-		$("#concert").show();
-		$("#concert").addClass('zoomIn');
-		$("#total").remove();
-		$("#concert").mouseenter(function(){
-				$("#concert").removeClass();
-				$("#concert").addClass('animated');
-				$("#concert").addClass('jello');	
-				$("#concert").css("animation-duration","1s");	
-				$("#concert").css("animation-delay","0s");	
-		});
-	$("#concert1").mouseenter(function(){
-				$("#concert1").removeClass();
-				$("#concert1").addClass('animated');
-				$("#concert1").addClass('jello');	
-				$("#concert1").css("animation-duration","1s");	
-				$("#concert1").css("animation-delay","0s");	
-		});
-	} );
+	
 
-	$('#concert').on('webkitAnimationEnd animationend',function(event){
-			$("#concert").removeClass();
-	} );
-	$('#concert1').on('webkitAnimationEnd animationend',function(event){
-		$("#concert1").removeClass();
-	} );
 	
 	
 	if ($(document).height() > $(window).height()) {

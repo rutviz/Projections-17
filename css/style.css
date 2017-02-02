@@ -51,15 +51,38 @@
 	font-size:55px;
 	animation-delay:2s;
 }
-#concert{
-	animation-delay: 4s;
-}
-
-#concert1{
-	animation-delay: 4s;
-}
 html.noscroll {
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
+}
+.events{
+	position: absolute;
+	top:70%;
+	left: 65%;
+	padding: 5%;
+	animation-delay: 5s;
+}
+.workshops{
+	position: absolute;
+	left:0%;
+	top:70%;
+	padding: 5%;
+	animation-delay: 4s;
+}
+@media only screen and (max-width: 500px)
+{
+	.events{
+		position: absolute;
+		top:80%;
+		left: 0;
+		padding: 5%;
+		animation-delay: 5s;
+	}
+	.workshops{
+		position: absolute;
+		top:70%;
+		padding: 5%;
+		animation-delay: 4s;
+	}
 }

@@ -1,120 +1,87 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-        <!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css'>
-<link rel="stylesheet" href="css/detail_contact_card.css">
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <style>
-		body{
-		
-		}
-		@media screen and (max-width: 480px) {
-			h1{
-				font-size:20px !important;
-				margin-bottom:4% !important;
-			}
-			.event{
-				margin-top:18% !important;
-				margin-bottom:2% !important;
-			}
-		}
-		#Detailsheader li{
-			display:inline-block !important;
-			background-color:#;
-			
-			padding:5px;
-			margin:5px;
-			margin-left:5px;
-		}
-		#Detailsheader li:hover{
-		color:black;
-		background-color:#fff;
-		cursor:pointer;
-		outline-color: rgba(255, 255, 255, 255);
-		outline-style: outset;
-		outline-width: thick;
-		font-size:20px;
-	}
-		.carousel{
-			heigth:900px !important;
-			overflow-Y:auto;
-		}
-	
-.text--transparent {
-    fill: transparent;
-}
-/*#eventtitle1{
-	height:20%;
-	background: url(img/London-Banner.jpg);
-}*/	  
-	  </style>
-	  
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link rel="stylesheet" href="css/detail_contact_card.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/detailpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-
 	<link rel="stylesheet" href="css/Event_title_reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/Event_title_style.css"> <!-- Resource style -->
-	<script src="js/Event_title_modernizr.js"></script> <!-- Modernizr -->	
-		
-		<script>
+	 <!-- Modernizr -->	
+	
+    <link href="css/registerfloatbutton.css" rel="stylesheet">
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
+	
+		<style>
+		 a{
+		color:white!important;
+		font-weight:Bold!important;
+		}
+		.tab a.active {
+			outline:none;
+		}
+		</style>
 			
- function navcolor(){
- 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
-	</script>
 		
+		<style>
+		a{
+		outline:none;
+		}
+		.indicator
+		{
+		background-color:white!important;
+		}
+		#titlename{
+		height:35%;width:100%;background:url(img/London-Banner.jpg);background-size:cover;
+		}
+		#tabs-swipe-demo{
+		margin-top:-1%!important;
+		color:white;
+		}
+		@media screen and (max-height: 900px) and (max-width: 500px){
+		#titlename{
+		margin-top:17%;
+		}
+		 a{
+		 font-size:10px!important;
+		}
+		#tabs-swipe-demo{
+		margin-top:-1%!important;
+		}
+		}
+		
+		</style>
     </head>
 
     <body onscroll="navcolor();" class="black">
 	<?php 
 		include('header.html');
 	?>
-	<div class="parallax-container hide-on-med-and-down " style="height: 300px; "> 
-		<section class="cd-intro " style="color: #fff;">
-		<h1 class="cd-headline clip is-full-width" style="margin-top:30px;">
 
-			<span class="cd-words-wrapper" >
-				<b class="is-visible">Gujarati</b>
-				<b >ગુજરાતી</b>
-				<b >गुजराती</b>
-				<b >گجراتی</b>
+		<div id="titlename" >
+		<center><h1 class="cd-headline clip is-full-width" >
+
+			<span class="cd-words-wrapper" id="eventtitle1">
+				<b class="is-visible">Chemo Quest</b>
+				<b >चेमो क्वेस्ट</b>
+				<b >ચેમો કુએસ્ત</b>
+				
 				
 				
 			</span>
-		</h1>
-	</section>
-	   <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
-    </div>        
- 
-		<div class="parallax-container hide-on-large-only " style="height: 200px; "> 
-		<section class="cd-intro " style="color: #fff;">
-		<h1 class="cd-headline clip is-full-width" style="margin-top:85px;">
+		</h1></center>
+		 <ul id="tabs-swipe-demo" class="tabs swipe transparent center " >
+    <li class="tab col s3" onclick="moveit(0)"><a class="active" href="#test-swipe-0">Description</a></li>
+    <li class="tab col s3" onclick="moveit(1)"><a href="#test-swipe-1" >Rounds</a></li>
+    <li class="tab col s3" onclick="moveit(2)"><a href="#test-swipe-2">Rules</a></li>
+    <li class="tab col s3" onclick="moveit(3)"><a href="#test-swipe-3">Contact</a></li>
+  </ul>	
 
-			<span class="cd-words-wrapper" >
-				<b class="is-visible">Gujarati</b>
-				<b >ગુજરાતી</b>
-				<b >गुजराती</b>
-				<b >گجراتی</b>
-				
-				
-			</span>
-		</h1>
-	</section> 
-	   <div class="parallax"><img src="http://1.bp.blogspot.com/-12HRVwK8e_I/UYqm3X4a1II/AAAAAAAAAOA/274gEpyu2aE/s1600/76256.jpg"> </div>
-    </div>        
+		</div>
 
 	      
 	        
@@ -122,48 +89,38 @@
      <!-- cd-intro -->
 	 <!-- Resource jQuery -->
 	 
-<script src="js/Event_title_jquery-2.1.1.js"></script>
-<script src="js/Event_title_main.js"></script>
+
 
 	
-
+	<div class="swiper-container swiper-container-v" id="detailswiper">
+	<div class="swiper-wrapper ">
 	
-	<div id="Detailsheader">
-	<div class="center white-text" >
-	<ul style="height: 50px;">
-		<li onclick="moveit(0)" id="demo">Description</li>
-		<li onclick="moveit(1)" id="demo" >Rounds</li>	
-		<li onclick="moveit(2)" id="demo">Rules</li>
-		<li onclick="moveit(3)" id="demo">Contact</li>
-	</ul>
-	</div>
-	</div>
-	
-	<div class="carousel carousel-slider center" style="height:auto" >
-    
-    <div class="carousel-item white white-text" href="#one!" style="
-
-background: #44A08D; /* fallback for old browsers */
+	<div class="swiper-slide" id="#test-swipe-0" style="background:#44A08D; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #44A08D , #093637); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #44A08D , #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        " >
-	  <p style="font-size:150%; font-weight:600;">Solve the quest, feel like a scientist !!</p>
+">
+        
+	 <p style="font-size:150%; font-weight:600;">Solve the quest, feel like a scientist !!</p>
       
 
 <p style="font-size:150%;">Relive your school days and fun in chemistry lab. Test your basic knowledge about chemistry </p>
 
 <p style="font-size:150%;" > PARTICIPANTS :-    Individual or a team of 2 </p>
 <p style="font-size:150%;">Registration fees:- 150 per person </p>
-
-
-	  </div>
-    <div class="carousel-item blue white-text" href="#two!" style="
+<button class="demo" onclick="window.open('register_portal_1.php')">Register Button</button>	
+  
+	
+	</div>
+	<div class="swiper-slide" id="#test-swipe-1" style="
 
 background: #C04848; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #C04848 , #480048); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #C04848 , #480048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        ">
-     <p style="font-size:150%; font-weight:600;">Round-1</p>
+        " >  
+    <div class="swiper-container swiper-container-h">
+        <div class="swiper-wrapper" >
+            <div class="swiper-slide">
+                    <p style="font-size:150%; font-weight:600;">Round-1</p>
       
 
 <p style="font-size:150%;">•	Topics from which questions is to be asked will be give to team at the beginning of round 1.</p>  
@@ -180,26 +137,25 @@ background: linear-gradient(to left, #C04848 , #480048); /* W3C, IE 10+/ Edge, F
 <p style="font-size:150%;">•	The procedure and the chemicals would be given and they have to make the product as per the procedure.</p>  
 <p style="font-size:150%;">•	Selection would be done on the basis of accurate product and the first one to complete it.</p>  
 
+            </div>
+        </div>
+        <!-- Add Scroll Bar -->
+        <div class="swiper-scrollbar swiper-scrollbar-h"></div>
     </div>
-    <div class="carousel-item green white-text" href="#three!" style="
-background: #5614B0; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #5614B0 , #DBD65C); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #5614B0 , #DBD65C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        ">
-      <p style="font-size:150%">•	No use of internet until instructed to.</p>
+	</div>
+	<div class="swiper-slide" id="#test-swipe-2" style="background: #5A3F37; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #5A3F37 , #2C7744); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #5A3F37 , #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">  <p style="font-size:150%">•	No use of internet until instructed to.</p>
 <p style="font-size:150%">•	Take safety measure for chemicals.</p>
 <p style="font-size:150%">•	Any damage to the property, participants would be responsible and has to pay fine as per it.</p>
 <p style="font-size:150%">•	Discipline is must.</p>
-</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!" style="
+</p></div>
 
-background: #F3904F; /* fallback for old browsers */
+<div class="swiper-slide" id="#test-swipe-3"style="padding:0;background: #F3904F; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #F3904F , #3B4371); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         ">
-    
-	<div class="teammember">
+<div class="teammember">
 	<div class="teammember__img" title="Image of Jinil Patel" style="background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/0c0/17c/10a99d5.jpg); background-size: cover;">
 	</div>
 	<div class="teammember__content">
@@ -238,9 +194,42 @@ background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, F
 	
 	
 </div>
-    </div>
-  </div>
-     <script src="js/clipboard.min.js"></script>
+	
+</div>
+ <div class="swiper-pagination swiper-pagination-v"></div>
+ 
+ </div>
+	
+	<?php include('footer.html'); ?>
+	
+	<script src="js/registerfloatbutton.js"></script>
+	<script src="js/Event_title_modernizr.js"></script>
+<script src="js/Event_title_jquery-2.1.1.js"></script>
+<script src="js/Event_title_main.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container-h', {
+        scrollbar: '.swiper-scrollbar-h',
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        mousewheelControl: true,
+        freeMode: true	
+		});
+	var swiper1 = new Swiper('.swiper-container-v', {
+        
+        direction: 'horizontal',
+        slidesPerView: 'auto',
+		paginationClickable: true,
+        mousewheelControl: false,
+        freeMode: false,
+		keyboardControl:true,
+		hashnav:true
+    });
+    </script>
+	 <script src="js/clipboard.min.js"></script>
 
     <!-- 3. Instantiate clipboard by passing a HTML element -->
     <script>
@@ -263,23 +252,70 @@ background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, F
        <!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 	<script>
-	$('.carousel.carousel-slider').carousel({full_width: true});
-	function moveit(a,b)
+	var currentswiper=0,b=0;
+	function moveit(a)
 	{
-		
-		$('.carousel').carousel('set', a);
-	
+		b=1;
+		swiper1.slideTo(a,1000,true);
+		currentswiper= a;
+		b=0;
+		//alert(currentswiper);
 	}
-	
-	</script>
-	<script>
+	swiper1.on('onSlidePrevStart',function(){
+		//alert(currentswiper);
+		currentswiper=currentswiper-1;
+		if(b==0){
+		if(currentswiper==2)
+		{
+		$('ul.tabs').tabs('select_tab','test-swipe-2');
+		}else if(currentswiper==1)
+		{
+		$('ul.tabs').tabs('select_tab','test-swipe-1');
+		}else if(currentswiper==0)
+		{
+		$('ul.tabs').tabs('select_tab','test-swipe-0');
+		}
+		
+		//currentswiper= currentswiper+1;
+		
+		}
+		//alert(currentswiper);
+		//alert("change");
+  });
+  
+swiper1.on('onSlideNextStart',function(){
+		//alert(currentswiper);
+		currentswiper=currentswiper+1;
+		if(b==0){
+		if(currentswiper==1)
+			$('ul.tabs').tabs('select_tab','test-swipe-1');
+		else if(currentswiper==2)
+		{
+		$('ul.tabs').tabs('select_tab','test-swipe-2');
+		}else if(currentswiper==3)
+		{
+		$('ul.tabs').tabs('select_tab','test-swipe-3');
+		}
+		}
+		//alert(currentswiper);
+		
+		//alert("change");
+  });
+ function navcolor(){
+ 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        $("header").css("background-color","#000");
+    } else {
+        $("header").css("background-color","transparent");
+    }
+ 	
+ }
   $(document).ready(function(){
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();
     });
- 
-</script>
-	
-     </body>
-  </html>
+  
+ </script>
+
+</body>
+</html>
         

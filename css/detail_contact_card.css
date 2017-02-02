@@ -5,7 +5,7 @@
   margin-left:3%;
   margin-top:3%;
   position:relative;
-  height: 50%;
+  height: 58%;
   width: 45%;
   background: #3C3C3C;
   display: -webkit-box;
@@ -83,9 +83,9 @@
 }
 .teammember__content__contact li::after {
   content: 'Copy to clipboard';
-  font-size: .75rem;
+  font-size: .90rem;
   font-weight:700;
-  color: #eeff41 ;
+  color: #F3904F ;
   padding-left: 10px;
   opacity: 0;
   -webkit-transition: .4s;
@@ -112,8 +112,13 @@
 @media screen and (max-height: 900px) and (max-width: 500px){
  .teammember{
  width: 90%;
- height: 40%;
+ height: 45%;
  }
+ .teammember__content__job {
+ margin-left:7%;
+ }
+ 
+ 
  .teammember__content__contact li {
  font-size:0.85rem;
  }
