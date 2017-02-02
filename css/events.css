@@ -263,9 +263,15 @@ xgallery
 @media only screen and (min-width: 768px) {
   .cd-gallery {
     padding: 40px 3%;
+<<<<<<< HEAD
     background: #0b0b0b !important; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #0b0b0b , #383838) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+=======
+    background: #0b0b0b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0b0b0b , #383838); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0b0b0b , #383838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+>>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
   
   }
   .cd-gallery ul {

@@ -494,7 +494,9 @@
 
 
   </div>
-
+<?php 
+	include('footer.html') 
+	?>
 	
 	<!-- //TEAM SECTION -->	
 

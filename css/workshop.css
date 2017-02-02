@@ -1,5 +1,9 @@
 .event-card {
+<<<<<<< HEAD
   width: 55%;
+=======
+  width: 59%;
+>>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
   height: 45%;
   background-color:white;
   box-shadow: 20px 20px 50px 0 rgba(50,50,50, 0.3);
