@@ -26,11 +26,14 @@
     </div>
 
 	<div>
-       <div class="event-card">
-            <div class="event-card_details"  >
-            <img src="logo/w1.png" id="image"/ >
-            </div>
-
+       <div class="event-card" >
+			<div class="event-card_details hide-on-large-only">
+            <img src="logo/w1m.png" id="image">
+			</div>
+			<div class="event-card_details hide-on-small-and-mid">
+            <img src="logo/w1.png" id="image">
+			</div>
+            
             <div class="event-card__image__date">
               <i class="material-icons icon">&#xE192;</i>
               <p><span class="number">11</span> JUN</p>

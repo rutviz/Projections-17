@@ -29,6 +29,21 @@ html {
   align-items: center;
  
 }
+#w1{
+background:url(../logo/w1.png) no-repeat;
+}
+
+@media screen and (max-height: 900px) and (max-width: 600px) {
+
+#w1{
+background-image:url(../logo/w1m.png) no-repeat;
+}
+
+}
+
+
+
+
 .back{
   background: #0b0b0b !important; 
   background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
@@ -72,7 +87,7 @@ width:auto;
   display: inline-block;
   float: left;	
   
-background-position: -100px top;
+  background-position: -100px top;
   -webkit-clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
   shape-outside: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
