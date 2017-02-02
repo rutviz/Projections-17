@@ -19,11 +19,21 @@
     <!-- Material Icons -->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 
+    <!-- AnimateCss-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
     <!--Import materialize.css-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-
+<style type="text/css">
+  hr{
+  border: 2px solid rgb(33, 150, 243);
+    border-radius: 50%;
+    text-align: center;
+    width: 30%;
+  }
+</style>
 <script>
-			
  function navcolor(){
  	 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         $("header").css("background-color","#000");
@@ -32,7 +42,6 @@
     }
  	
  }
-
 </script>
 
 </head>
@@ -62,47 +71,45 @@
 
     <div class="container">
 
-   		<div class="row">
-   			
-   			<div class="col s12">
+   		<div class="row animated">
+   			<h2 class="animated bounceInRight" style="color:#fff;letter-spacing:1px; text-align: center;">Parul University</h2> <hr class="animated bounceInRight">
+   			<div class="col s12 m6 l6">
+          <img class="responsive-img animated bounceInLeft" style="width:100%; overflow:hidden; margin-top: 22px;" src="images/parul.png">
+        </div>
    				
-   				<div class="aboutParul">
+        <div class="col s12 m6 l6 animated bounceInRight">  
    					
-   					<p class="light white-text">
-   					Parul University is an amalgamation on 30 Institutes offering 150+ programs in Engineering & Technology, Pharmacy, Physiotherapy, Homoeopathy, Ayurveda, Architecture, Management, Business Administration, Computer Application, Fine Arts, Social Work and Vocational Education at Diploma, Under Graduate, Post Graduate & Doctoral Level in a 150+ acre modern infrastructure equipped campus housing 28000+ students, 700+ International Students from 37 Different Countries, 2000+ faculty members & providing in-campus residential facility to 7000+ students making it India’s Premier Multidisciplinary University. Well, it is also the only campus in Gujarat to have 109 faculty members from reputed organizations such as IITs & NITs.
-Campus is a perfect blend of youth under the guidance of experienced academicians creating a positive aura of teaching, learning, knowledge & innovation for all the stake holders.
+   					<p class="light white-text" style="font-size:17px; color:#FFFFFF; line-height:180%; letter-spacing:0.5px; text-align:justify;">
+   					Parul University is an amalgamation on 30 Institutes offering 150+ programs in Engineering & Technology, Pharmacy, Physiotherapy, Homoeopathy, Ayurveda, Architecture, Management, Business Administration, Computer Application, Fine Arts, Social Work and Vocational Education at Diploma, Under Graduate, Post Graduate & Doctoral Level in a 150+ acre modern infrastructure equipped campus housing 28000+ students, 700+ International Students from 37 Different Countries, 2000+ faculty members & providing in-campus residential facility to 7000+ students making it India’s Premier Multidisciplinary University.  </p>
+        </div>
+        
+        <div class="col s12 m12 l12 animated bounceInRight" style="margin-top: -25px;">
+            <p style="font-size:17px; color:#FFFFFF; line-height:180%; letter-spacing:0.5px; text-align:justify;">
+              Well, it is also the only campus in Gujarat to have 109 faculty members from reputed organizations such as IITs & NITs. Campus is a perfect blend of youth under the guidance of experienced academicians creating a positive aura of teaching, learning, knowledge & innovation for all the stake holders.
 					</p>
-
-   				</div>
-
 
    			</div>
 
-   		</div>
+   	</div>
 
+    <br/> 
 
-   		<div class="row">
-   			
-   			<div class="col s12">
-   				
-   				<div class="aboutParul">
-   					
-   					<p class="light white-text">
-   					Parul University is an amalgamation on 30 Institutes offering 150+ programs in Engineering & Technology, Pharmacy, Physiotherapy, Homoeopathy, Ayurveda, Architecture, Management, Business Administration, Computer Application, Fine Arts, Social Work and Vocational Education at Diploma, Under Graduate, Post Graduate & Doctoral Level in a 150+ acre modern infrastructure equipped campus housing 28000+ students, 700+ International Students from 37 Different Countries, 2000+ faculty members & providing in-campus residential facility to 7000+ students making it India’s Premier Multidisciplinary University. Well, it is also the only campus in Gujarat to have 109 faculty members from reputed organizations such as IITs & NITs.
-Campus is a perfect blend of youth under the guidance of experienced academicians creating a positive aura of teaching, learning, knowledge & innovation for all the stake holders.
-Parul University was established under Gujarat Private University Act 2009, vide a bill passed by the Government of Gujarat on 26th March 2015 giving University status to Parul Group of Institutes run by Parul Arogya Seva Mandal Trust.
-Parul University has various support cells which facilitate 360 degree learning and career building, be during the period of study or after completion for Jobs / Further Students. Research & Development Cell, Entrepreneurship Development Cell, Career Development Cell, Training & Placement Cell, International Relations Cell, International Students’ Affair Cell, Department of Events & Media Relations, Students’ Council and Alumni Association to name a few.
+    <div class="row">
+        <h2 class="animated bounceInLeft" style="color:#fff;letter-spacing:1px; text-align: center;">Projections</h2> <hr class="animated bounceInLeft">
+        <div class="col s12 m6 l6 right animated bounceInRight  center-align">
+          <img class="responsive-img" style="width:70%; overflow:hidden; margin-top: 22px;" src="images/Projections.png">
+        </div>
+          
+        <div class="col s12 m6 l6 animated bounceInLeft">  
+            
+            <p class="light white-text " style="font-size:17px; color:#FFFFFF; line-height:180%; letter-spacing:0.5px; text-align:justify;">
+             Campus is a perfect blend of youth under the guidance of experienced academicians creating a positive aura of teaching, learning, knowledge & innovation for all the stake holders.
+              Parul University was established under Gujarat Private University Act 2009, vide a bill passed by the Government of Gujarat on 26th March 2015 giving University status to Parul Group of Institutes run by Parul Arogya Seva Mandal Trust.
+              Parul University has various support cells which facilitate 360 degree learning and career building, be during the period of study or after completion for Jobs / Further Students. Research & Development Cell, Entrepreneurship Development Cell, Career Development Cell, Training & Placement Cell, International Relations Cell, International Students’ Affair Cell, Department of Events & Media Relations, Students’ Council and Alumni Association to name a few.</p>
+        </div>
 
-					</p>
+    </div>
 
-   				</div>
-
-
-   			</div>
-
-   		</div>
-
-    	
     </div>
 <?php include('footer.html'); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- Load jQuery -->
