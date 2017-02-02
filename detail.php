@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/detailpage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/Event_title_reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/Event_title_style.css"> <!-- Resource style -->
@@ -36,22 +35,23 @@
 		background-color:white!important;
 		}
 		#titlename{
-		height:35%;width:100%;background:url(img/London-Banner.jpg);background-size:cover;
+		height:42%;width:100%;background:url(img/London-Banner.jpg);background-size:cover;
 		}
 		#tabs-swipe-demo{
-		margin-top:-1%!important;
+		
 		color:white;
 		}
+		h1{
+		margin:0;}
 		@media screen and (max-height: 900px) and (max-width: 500px){
 		#titlename{
 		margin-top:17%;
+		height:auto;
 		}
 		 a{
 		 font-size:10px!important;
 		}
-		#tabs-swipe-demo{
-		margin-top:-1%!important;
-		}
+		
 		}
 		
 		</style>
@@ -75,11 +75,11 @@
 			</span>
 		</h1></center>
 		 <ul id="tabs-swipe-demo" class="tabs swipe transparent center " >
-    <li class="tab col s3" onclick="moveit(0)"><a class="active" href="#test-swipe-0">Description</a></li>
-    <li class="tab col s3" onclick="moveit(1)"><a href="#test-swipe-1" >Rounds</a></li>
-    <li class="tab col s3" onclick="moveit(2)"><a href="#test-swipe-2">Rules</a></li>
-    <li class="tab col s3" onclick="moveit(3)"><a href="#test-swipe-3">Contact</a></li>
-  </ul>	
+			<li class="tab col s3" onclick="moveit(0)"><a class="active" href="#test-swipe-0">Description</a></li>
+			<li class="tab col s3" onclick="moveit(1)"><a href="#test-swipe-1" >Rounds</a></li>
+			<li class="tab col s3" onclick="moveit(2)"><a href="#test-swipe-2">Rules</a></li>
+			<li class="tab col s3" onclick="moveit(3)"><a href="#test-swipe-3">Contact</a></li>
+		  </ul>	
 
 		</div>
 
@@ -198,6 +198,7 @@ background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, F
 </div>
  <div class="swiper-pagination swiper-pagination-v"></div>
  
+ </div>
  </div>
 	
 	<?php include('footer.html'); ?>

@@ -25,10 +25,10 @@
       <div class="parallax"><img src="img/workshopbg.jpg" style="background-color: #222"/> </div>
     </div>
 
-	
-        <div class="event-card">
-            <div class="event-card_details" >
-            <img src="logo/w1.png"/>
+	<div>
+       <div class="event-card">
+            <div class="event-card_details"  >
+            <img src="logo/w1.png" id="image"/ >
             </div>
 
             <div class="event-card__image__date">
@@ -46,9 +46,9 @@
             </div>
         </div>
       
-        <div class="event-card">
+       <div class="event-card">
             <div class="event-card_details" >
-            <img src="logo/w2.png"/>
+            <img src="logo/w2.png" />
             </div>
         
             <div class="event-card__image__date">
@@ -67,7 +67,7 @@
         </div>
     
 
-    <div class="event-card">
+	   <div class="event-card">
         <div class="event-card_details" >
         <img src="logo/w3.png"/>
         </div>
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-<div class="event-card">
+       <div class="event-card">
 <div class="event-card_details" >
 <img src="logo/w4.png"/>
 </div>
@@ -106,8 +106,8 @@
     <button style="right: 41%;">Register Now</button><button>About Workshop</button>
   </div>
 </div>
-</div>
-<div class="event-card">
+
+       <div class="event-card">
 <div class="event-card_details" >
 <img src="logo/w5.png"/>
 </div>
@@ -125,8 +125,7 @@
     <button style="right: 41%;">Register Now</button><button>About Workshop</button>
   </div>
 </div>
-</div>
-<div class="event-card">
+       <div class="event-card">
 <div class="event-card_details" >
 <img src="logo/w6.png"/>
 </div>
@@ -145,6 +144,7 @@
   </div>
 </div>
 </div>
+
 
 	<?php include("footer.html"); ?>
 <script src="js/jquery-2.1.1.js"></script>

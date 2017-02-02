@@ -1,9 +1,7 @@
+
 .event-card {
-<<<<<<< HEAD
   width: 55%;
-=======
   width: 59%;
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
   height: 45%;
   background-color:white;
   box-shadow: 20px 20px 50px 0 rgba(50,50,50, 0.3);
@@ -36,6 +34,14 @@ html {
   background: -webkit-linear-gradient(to left, #0b0b0b , #383838) !important; 
   background: linear-gradient(to left, #0b0b0b , #383838) !important; 
 }
+/*.event-card:hover #image{
+height:initial;
+width:initial;
+}
+#image{
+height:inherit;
+width:inherit;
+}*/
 
 .event-card:hover  .event-card_details{
 Transition : all 1s ease;
@@ -52,11 +58,14 @@ opacity:1;
 display: block;
 }.event-card:hover .event-card__text h3{
 display: block;
+}.event-card:hover .event-card__text img{
+height:auto;
+width:auto;
 }
 
+
+
 .event-card_details{
- background-size: cover;
- background-repeat:no-repeat;
   width: 100%;
   height: 100%;
   shape-margin: 30px;
