@@ -11,11 +11,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/Event_title_reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/Event_title_style.css"> <!-- Resource style -->
-<<<<<<< HEAD
-	 <!-- Modernizr -->	
-=======
 	<script src="js/Event_title_modernizr.js"></script> <!-- Modernizr -->	
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
 	
     <link href="css/registerfloatbutton.css" rel="stylesheet">
 	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
@@ -29,7 +25,6 @@
 			outline:none;
 		}
 		</style>
-<<<<<<< HEAD
 			
 		
 		<style>
@@ -59,46 +54,6 @@
 		}
 		}
 		
-=======
-			<script>
- function navcolor(){
- 	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $("header").css("background-color","#000");
-    } else {
-        $("header").css("background-color","transparent");
-    }
- 	
- }
-	</script>
-		
-		<style>
-		a{
-		outline:none;
-		}
-		.indicator
-		{
-		background-color:white!important;
-		}
-		#titlename{
-		height:35%;width:100%;background:url(img/London-Banner.jpg);background-size:cover;
-		}
-		#tabs-swipe-demo{
-		margin-top:-4.5%!important;
-		color:white;
-		}
-		@media screen and (max-height: 900px) and (max-width: 500px){
-		#titlename{
-		margin-top:17%;
-		}
-		 a{
-		 font-size:10px!important;
-		}
-		#tabs-swipe-demo{
-		margin-top:-1%!important;
-		}
-		}
-		
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
 		</style>
     </head>
 
@@ -153,11 +108,7 @@ background: linear-gradient(to left, #44A08D , #093637); /* W3C, IE 10+/ Edge, F
 <p style="font-size:150%;" > PARTICIPANTS :-    Individual or a team of 2 </p>
 <p style="font-size:150%;">Registration fees:- 150 per person </p>
 <button class="demo" onclick="window.open('register_portal_1.php')">Register Button</button>	
-<<<<<<< HEAD
-  
-=======
   <script src="js/registerfloatbutton.js"></script>
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
 	
 	</div>
 	<div class="swiper-slide" id="#test-swipe-1" style="
@@ -249,19 +200,12 @@ background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, F
  
  </div>
 	
-<<<<<<< HEAD
 	<?php include('footer.html'); ?>
 	
-	<script src="js/registerfloatbutton.js"></script>
-	<script src="js/Event_title_modernizr.js"></script>
+	
+	
 <script src="js/Event_title_jquery-2.1.1.js"></script>
 <script src="js/Event_title_main.js"></script>
-=======
-	
-	
-	
-
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
     <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
 
@@ -357,7 +301,6 @@ swiper1.on('onSlideNextStart',function(){
 		
 		//alert("change");
   });
-<<<<<<< HEAD
  function navcolor(){
  	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         $("header").css("background-color","#000");
@@ -366,11 +309,6 @@ swiper1.on('onSlideNextStart',function(){
     }
  	
  }
-=======
-  
-	</script>
-	<script>
->>>>>>> 6a3b333de8430c440e648eb38672340619a10a4a
   $(document).ready(function(){
       $('.parallax').parallax();
 	  $(".button-collapse").sideNav();

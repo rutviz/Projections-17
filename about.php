@@ -104,7 +104,7 @@ Parul University has various support cells which facilitate 360 degree learning 
 
     	
     </div>
-
+<?php include('footer.html'); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- Load jQuery -->
     
        <!-- Compiled and minified JavaScript -->
